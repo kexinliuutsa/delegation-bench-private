@@ -4,7 +4,7 @@
 
 ## 建议阅读顺序
 
-1. [`REPORT_FOR_TEACHER_ZH.md`](REPORT_FOR_TEACHER_ZH.md) — 面向老师的中文精简报告
+1. [`REPORT_FOR_TEACHER_ZH.md`](REPORT_FOR_TEACHER_ZH.md) — 面向peers的中文精简报告
 2. [`KEY_RESULTS.md`](KEY_RESULTS.md) — 一页式结论、边界与未完成事项
 3. [`paper/DelegationBench_Project_Report.md`](paper/DelegationBench_Project_Report.md) — 完整项目报告
 
