@@ -31,7 +31,3 @@
 - Delegation-transition：设计与基础设施不足，已归档；假设未证伪
 - resistance/refusal：真实人工验证尚未完成
 - recovery：测量可行，科学效应尚未分析
-
-## 阅读与引用约束
-
-科学表述应以 [`paper/CLAIM_EVIDENCE_MATRIX.csv`](paper/CLAIM_EVIDENCE_MATRIX.csv) 为准。完整实验谱系见 [`docs/EXPERIMENT_LINEAGE.md`](docs/EXPERIMENT_LINEAGE.md)。本仓库含私有复现材料，未经重新进行隐私、许可与体积审查，不应直接改为 Public。
