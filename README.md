@@ -4,7 +4,7 @@
 
 仓库是 private 版本，所以不仅保留最终结果，也保留协议演变、失败实验、收集故障和质量检查。第一次看不需要从实验编号顺着读，下面三个文件已经把主线整理出来：
 
-- [`REPORT_FOR_PEERS_ZH.md`](REPORT_FOR_PEERS_ZH.md)：适合组会或和同学讨论的短报告
+- [`REPORT_FOR_PEERS_ZH.md`](REPORT_FOR_PEERS_ZH.md)：目前的短报告
 - [`KEY_RESULTS.md`](KEY_RESULTS.md)：关键数字，以及哪些问题还没有答案
 - [`paper/DelegationBench_Project_Report.md`](paper/DelegationBench_Project_Report.md)：相对完整的研究总结
 
