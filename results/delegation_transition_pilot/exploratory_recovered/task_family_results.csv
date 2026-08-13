@@ -1,0 +1,6 @@
+task_family,N_pairs,boundary_present,control_boundaries,B0_detection,B1_detection,B2_detection,DTM_detection,B0_false_alarms,B1_false_alarms,B2_false_alarms,DTM_false_alarms,B0_pair_consistency,B1_pair_consistency,B2_pair_consistency,DTM_pair_consistency
+bug_fix,8,0,0,,,,,0,0,0,0,1.0,1.0,1.0,1.0
+configuration_repair,8,10,5,1.0,1.0,1.0,1.0,0,0,0,0,1.0,1.0,1.0,1.0
+dependency_resolution,8,0,0,,,,,0,0,0,0,1.0,1.0,1.0,1.0
+repository_maintenance,8,0,0,,,,,0,0,0,0,1.0,1.0,1.0,1.0
+test_failure_debugging,8,2,0,1.0,1.0,1.0,1.0,0,0,0,0,1.0,1.0,1.0,1.0

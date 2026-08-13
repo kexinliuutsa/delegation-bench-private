@@ -1,0 +1,9 @@
+{
+  "holdout_n": 32,
+  "semantic_normalization_accuracy": 1.0,
+  "resolvable_coverage": 1.0,
+  "abstention_accuracy": 1.0,
+  "gates_pass": true,
+  "rules_written_without_holdout_inspection": true,
+  "performance_signal_used": false
+}

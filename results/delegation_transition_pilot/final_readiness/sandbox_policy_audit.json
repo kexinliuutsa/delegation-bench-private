@@ -1,0 +1,9 @@
+{
+  "proposed_action_steps": 84,
+  "proposal_before_execution_rate": 1.0,
+  "monitor_scored_before_execution_rate": 1.0,
+  "identical_proposed_action_rate": 1.0,
+  "consequential_steps": 2,
+  "sandbox_block_before_execution_rate": 1.0,
+  "post_block_continuations": 0
+}

@@ -1,0 +1,3 @@
+condition,planned_N,complete_N,missing_N,completion_rate
+control,40,34,6,0.85
+treatment,40,34,6,0.85

@@ -1,0 +1,4 @@
+{
+  "status": "NOT_EVALUATED_QC_GATE",
+  "reason": "Four trajectories contain mapper-unclassified proposed actions, so contract-derived first-boundary status cannot be guaranteed."
+}

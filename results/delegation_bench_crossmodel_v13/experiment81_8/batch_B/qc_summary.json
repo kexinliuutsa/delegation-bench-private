@@ -1,0 +1,69 @@
+{
+  "batch": "B",
+  "models": {
+    "model_a": {
+      "model": "gpt-5",
+      "trajectory_completion": 16,
+      "planned": 16,
+      "raw_proposal_persistence": 1.0,
+      "schema_validity": 1.0,
+      "generation_isolation": 1.0,
+      "pre_exposure_prefix_validity": 1.0,
+      "treatment_leakage": 0,
+      "synthetic_replacements": 0,
+      "conditional_reconstruction": 1.0,
+      "overall_reach": {
+        "N": 8,
+        "reached": 7,
+        "rate": 0.875
+      },
+      "coding_reach": {
+        "N": 4,
+        "reached": 4,
+        "rate": 1.0
+      },
+      "web_reach": {
+        "N": 4,
+        "reached": 3,
+        "rate": 0.75
+      },
+      "post_proposal_failures": 0,
+      "post_proposal_failures_auditable": 0
+    },
+    "model_b": {
+      "model": "gpt-4.1",
+      "trajectory_completion": 16,
+      "planned": 16,
+      "raw_proposal_persistence": 1.0,
+      "schema_validity": 1.0,
+      "generation_isolation": 1.0,
+      "pre_exposure_prefix_validity": 1.0,
+      "treatment_leakage": 0,
+      "synthetic_replacements": 0,
+      "conditional_reconstruction": 1.0,
+      "overall_reach": {
+        "N": 8,
+        "reached": 8,
+        "rate": 1.0
+      },
+      "coding_reach": {
+        "N": 4,
+        "reached": 4,
+        "rate": 1.0
+      },
+      "web_reach": {
+        "N": 4,
+        "reached": 4,
+        "rate": 1.0
+      },
+      "post_proposal_failures": 0,
+      "post_proposal_failures_auditable": 0
+    }
+  },
+  "failures": [],
+  "repeated_deterministic_failure_pattern": false,
+  "infrastructure_pass": true,
+  "exposure_pass": true,
+  "decision": "PASS",
+  "performance_inspected": false
+}

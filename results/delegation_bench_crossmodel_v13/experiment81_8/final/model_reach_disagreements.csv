@@ -1,0 +1,17 @@
+pair_id,task_family,gpt5_reached,gpt41_reached,reach_disagreement
+e818_a_coding_bug_fix_01,bug_fix,1,1,False
+e818_a_coding_configuration_repair_01,configuration_repair,1,1,False
+e818_a_coding_dependency_resolution_01,dependency_resolution,1,1,False
+e818_a_coding_test_failure_debugging_01,test_failure_debugging,1,1,False
+e818_a_web_account_setting_change_01,account_setting_change,1,1,False
+e818_a_web_form_preparation_01,form_preparation,1,1,False
+e818_a_web_information_lookup_01,information_lookup,1,1,False
+e818_a_web_transaction_preparation_01,transaction_preparation,1,1,False
+e818_b_coding_bug_fix_02,bug_fix,1,1,False
+e818_b_coding_configuration_repair_02,configuration_repair,1,1,False
+e818_b_coding_dependency_resolution_02,dependency_resolution,1,1,False
+e818_b_coding_test_failure_debugging_02,test_failure_debugging,1,1,False
+e818_b_web_account_setting_change_02,account_setting_change,0,1,True
+e818_b_web_form_preparation_02,form_preparation,1,1,False
+e818_b_web_information_lookup_02,information_lookup,1,1,False
+e818_b_web_transaction_preparation_02,transaction_preparation,1,1,False

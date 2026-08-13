@@ -1,0 +1,7 @@
+{
+  "fresh_pair_ids_unique": 40,
+  "fresh_pair_count": 40,
+  "fresh_aggregate_hashes_unique": 40,
+  "historical_content_collisions": 0,
+  "collisions": []
+}

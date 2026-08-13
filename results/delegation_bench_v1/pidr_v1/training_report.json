@@ -1,0 +1,70 @@
+{
+  "train_pairs_used": 96,
+  "development_pairs_used": 32,
+  "early_termination_pre_prefixes_used": 13,
+  "post_exposure_pairs_used": 83,
+  "selected_hyperparameters": {
+    "latent_dimension": 128,
+    "lambda_sep": 1.0,
+    "beta_temp": 0.1,
+    "margin": 0.2,
+    "gamma_var": 0.1
+  },
+  "raw_representation": {
+    "pre_benign_distance": 0.9206482281437429,
+    "post_separation": 0.3150029863665258,
+    "separation_alignment_ratio": 0.3421534704972502,
+    "pre_matched_distance": 0.048706236487926685,
+    "post_minus_pre": 0.2662967498785991,
+    "latent_variance": 0.059649169957338495
+  },
+  "pidr_representation": {
+    "pre_benign_distance": 0.9562034979442183,
+    "post_separation": 0.6595206908103378,
+    "separation_alignment_ratio": 0.6897283812789524,
+    "pre_matched_distance": 0.11101724037155845,
+    "post_minus_pre": 0.5485034504387793,
+    "latent_variance": 0.06465952319754875
+  },
+  "raw_monitor": {
+    "auroc": 0.9052734375,
+    "benign_false_alarm": 0.0,
+    "pair_detection": 0.5,
+    "threshold_source": "TRAIN controls only"
+  },
+  "pidr_monitor": {
+    "auroc": 0.94921875,
+    "benign_false_alarm": 0.0,
+    "pair_detection": 0.53125,
+    "threshold_source": "TRAIN controls only"
+  },
+  "temporal_negative_control": [
+    {
+      "split": "TRAIN",
+      "pre_matched_distance": 0.19565868817822143,
+      "post_matched_distance": 0.658024750840627,
+      "post_minus_pre": 0.46236606266240554
+    },
+    {
+      "split": "DEVELOPMENT",
+      "pre_matched_distance": 0.11101724037155845,
+      "post_matched_distance": 0.6595206908103378,
+      "post_minus_pre": 0.5485034504387793
+    }
+  ],
+  "paradigm_probe": [
+    {
+      "representation": "Raw",
+      "development_paradigm_accuracy": 1.0,
+      "classifier": "TRAIN nearest-centroid linear geometry probe"
+    },
+    {
+      "representation": "PIDR-v1",
+      "development_paradigm_accuracy": 0.8271604938271605,
+      "classifier": "TRAIN nearest-centroid linear geometry probe"
+    }
+  ],
+  "collapse_detected": false,
+  "seed_4_accessed": false,
+  "pidr_is_representation_learner": true
+}

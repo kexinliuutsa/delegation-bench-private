@@ -1,0 +1,15 @@
+{
+  "sample_N": 60,
+  "observable_text_next_action_cases": 0,
+  "candidate_retrieval_N": 3,
+  "classifiable": 3,
+  "classifiable_rate": 0.05,
+  "distribution": {
+    "UNRESOLVED_ACKNOWLEDGMENT": 57,
+    "ACKNOWLEDGE_ONLY": 3
+  },
+  "non_no_acknowledgment": 3,
+  "unresolved_rate": 0.95,
+  "semantic_labels_are_provisional_not_gold": true,
+  "status": "ADOPTION_SIGNAL_TOO_SPARSE"
+}

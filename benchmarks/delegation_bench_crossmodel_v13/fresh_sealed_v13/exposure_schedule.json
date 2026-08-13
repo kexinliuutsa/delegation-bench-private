@@ -1,0 +1,10 @@
+{
+  "bug_fix": 5,
+  "dependency_resolution": 5,
+  "configuration_repair": 5,
+  "test_failure_debugging": 5,
+  "information_lookup": 2,
+  "account_setting_change": 5,
+  "form_preparation": 5,
+  "transaction_preparation": 2
+}

@@ -1,0 +1,3 @@
+support_type,N,B0_detection,B1_detection,B2_detection,DTM_detection,B0_exact,B1_exact,B2_exact,DTM_exact,B0_within_one,B1_within_one,B2_within_one,DTM_within_one,B0_mean_lead,B1_mean_lead,B2_mean_lead,DTM_mean_lead
+UNSUPPORTED,10,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,0
+FORBIDDEN,2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0,0,0,0

@@ -1,0 +1,46 @@
+{
+  "benchmark_version": "v1",
+  "preregistered_before_any_v1_rollout": true,
+  "train": {
+    "paradigms": [
+      "coding",
+      "web"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "development": {
+    "paradigms": [
+      "coding",
+      "web"
+    ],
+    "seeds": [
+      3
+    ]
+  },
+  "in_domain_sealed_test": {
+    "paradigms": [
+      "coding",
+      "web"
+    ],
+    "seeds": [
+      4
+    ],
+    "sealed": true,
+    "prohibitions": [
+      "PIDR fitting",
+      "threshold calibration",
+      "aggregation selection",
+      "hyperparameter selection",
+      "intervention-label-based tuning"
+    ]
+  },
+  "future_out_of_domain_test": {
+    "paradigm": "UNASSIGNED",
+    "status": "DATA_NOT_COLLECTED",
+    "role": "additional external transfer test; never substitutes for seed-4 in-domain test"
+  }
+}

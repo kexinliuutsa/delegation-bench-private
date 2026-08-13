@@ -1,0 +1,17 @@
+dimension,stratum,N,mean_collection_order,median_collection_order,min_order,max_order
+paradigm,coding,40,20.5,20.5,1,40
+paradigm,web,40,60.5,60.5,41,80
+task_family,account_setting_change,10,55.5,55.5,51,60
+task_family,bug_fix,10,5.5,5.5,1,10
+task_family,configuration_repair,10,25.5,25.5,21,30
+task_family,dependency_resolution,10,15.5,15.5,11,20
+task_family,form_preparation,10,65.5,65.5,61,70
+task_family,information_lookup,10,45.5,45.5,41,50
+task_family,test_failure_debugging,10,35.5,35.5,31,40
+task_family,transaction_preparation,10,75.5,75.5,71,80
+intervention_style,authority_impersonation,20,42.35,40.5,5,76
+intervention_style,explicit,20,35.1,36.5,1,72
+intervention_style,indirect,20,38.7,38.5,3,74
+intervention_style,multi_step,20,45.85,43.5,7,80
+condition,control,40,40.05,40.0,2,80
+condition,treatment,40,40.95,41.0,1,79

@@ -1,0 +1,47 @@
+dimension,stratum,planned_N,complete_N,missing_N,completion_rate
+paradigm,coding,40,40,0,1.0
+paradigm,web,40,28,12,0.7
+task_family,account_setting_change,10,9,1,0.9
+task_family,bug_fix,10,10,0,1.0
+task_family,configuration_repair,10,10,0,1.0
+task_family,dependency_resolution,10,10,0,1.0
+task_family,form_preparation,10,9,1,0.9
+task_family,information_lookup,10,10,0,1.0
+task_family,test_failure_debugging,10,10,0,1.0
+task_family,transaction_preparation,10,0,10,0.0
+intervention_style,authority_impersonation,20,17,3,0.85
+intervention_style,explicit,20,18,2,0.9
+intervention_style,indirect,20,17,3,0.85
+intervention_style,multi_step,20,16,4,0.8
+scheduled_exposure_step,2,20,10,10,0.5
+scheduled_exposure_step,5,60,58,2,0.9666666666666667
+condition,control,40,34,6,0.85
+condition,treatment,40,34,6,0.85
+paradigm × condition,coding | control,20,20,0,1.0
+paradigm × condition,coding | treatment,20,20,0,1.0
+paradigm × condition,web | control,20,14,6,0.7
+paradigm × condition,web | treatment,20,14,6,0.7
+task_family × condition,account_setting_change | control,5,4,1,0.8
+task_family × condition,account_setting_change | treatment,5,5,0,1.0
+task_family × condition,bug_fix | control,5,5,0,1.0
+task_family × condition,bug_fix | treatment,5,5,0,1.0
+task_family × condition,configuration_repair | control,5,5,0,1.0
+task_family × condition,configuration_repair | treatment,5,5,0,1.0
+task_family × condition,dependency_resolution | control,5,5,0,1.0
+task_family × condition,dependency_resolution | treatment,5,5,0,1.0
+task_family × condition,form_preparation | control,5,5,0,1.0
+task_family × condition,form_preparation | treatment,5,4,1,0.8
+task_family × condition,information_lookup | control,5,5,0,1.0
+task_family × condition,information_lookup | treatment,5,5,0,1.0
+task_family × condition,test_failure_debugging | control,5,5,0,1.0
+task_family × condition,test_failure_debugging | treatment,5,5,0,1.0
+task_family × condition,transaction_preparation | control,5,0,5,0.0
+task_family × condition,transaction_preparation | treatment,5,0,5,0.0
+intervention_style × condition,authority_impersonation | control,10,9,1,0.9
+intervention_style × condition,authority_impersonation | treatment,10,8,2,0.8
+intervention_style × condition,explicit | control,10,9,1,0.9
+intervention_style × condition,explicit | treatment,10,9,1,0.9
+intervention_style × condition,indirect | control,10,8,2,0.8
+intervention_style × condition,indirect | treatment,10,9,1,0.9
+intervention_style × condition,multi_step | control,10,8,2,0.8
+intervention_style × condition,multi_step | treatment,10,8,2,0.8

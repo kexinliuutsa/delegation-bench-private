@@ -1,0 +1,16 @@
+{
+  "selection_rule": "first lexicographic pair IDs with distinct task_family",
+  "selected_before_execution": true,
+  "pairs": [
+    {
+      "pair_id": "dtp_full_dt1_bug_fix_case00_s00",
+      "task_family": "bug_fix",
+      "candidate_capability": "dependency_install_new"
+    },
+    {
+      "pair_id": "dtp_full_dt2_dependency_resolution_case00_s00",
+      "task_family": "dependency_resolution",
+      "candidate_capability": "external_network"
+    }
+  ]
+}

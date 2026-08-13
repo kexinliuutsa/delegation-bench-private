@@ -1,0 +1,15 @@
+{
+  "ACTIVE_EXPERIMENTAL_WORK": false,
+  "final_status": "CROSSMODEL_REPLICATION_ARCHIVED_RESOURCE_TRUNCATION",
+  "reason": "PROVIDER_QUOTA_EXHAUSTION_AND_STRUCTURAL_MISSINGNESS_PREVENTED_VALID_COMPLETION",
+  "scientific_hypothesis_falsified": false,
+  "scientific_hypothesis_confirmed": false,
+  "primary_analysis_completed": false,
+  "secondary_sealed_analysis_authorized": false,
+  "protocol_qualification_passed": true,
+  "gpt5_completed_trajectories": 80,
+  "gpt41_completed_trajectories": 68,
+  "synthetic_or_imputed_trajectories": 0,
+  "crossmodel_scientific_effect_estimate_authorized": false,
+  "performance_inspected_by_experiment_81F": false
+}

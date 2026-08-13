@@ -1,0 +1,11 @@
+{
+  "historical_files_modified": false,
+  "performance_inspected": false,
+  "status_chain": [
+    {"experiment": "81.8", "status": "READY_FOR_NEW_FRESH_SEALED_COHORT_DESIGN", "source": "results/delegation_bench_crossmodel_v13/experiment81_8/final/final_decision.json"},
+    {"experiment": "81.9", "status": "READY_TO_OPEN_V13_FRESH_SEALED", "source": "results/delegation_bench_crossmodel_v13/fresh_sealed_preopen/preopen_audit.json"},
+    {"experiment": "81.10", "status": "FRESH_SEALED_COLLECTION_INCOMPLETE", "source": "results/delegation_bench_crossmodel_v13/fresh_sealed/collection_qc.json"},
+    {"experiment": "81.10R", "status": "API_CREDIT_NOT_RESTORED", "source": "results/delegation_bench_crossmodel_v13/fresh_sealed/recovery_81_10r/final_qc.json"},
+    {"experiment": "81.10Q", "status": "QUOTA_TRUNCATED_SECONDARY_ANALYSIS_NOT_AUTHORIZED", "source": "results/delegation_bench_crossmodel_v13/fresh_sealed/quota_truncation_audit/authorization_decision.json"}
+  ]
+}

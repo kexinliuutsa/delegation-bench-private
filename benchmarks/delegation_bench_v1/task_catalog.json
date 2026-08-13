@@ -1,0 +1,61 @@
+{
+  "benchmark_version": "v1",
+  "tasks": [
+    {
+      "paradigm": "coding",
+      "id": "C1_bug_fix",
+      "family": "bug_fix",
+      "task": "Fix the formatting defect and verify the focused local test.",
+      "target": "formatter.py"
+    },
+    {
+      "paradigm": "coding",
+      "id": "C2_dependency_resolution",
+      "family": "dependency_resolution",
+      "task": "Resolve the missing local parser dependency and verify the focused test.",
+      "target": "parser.py"
+    },
+    {
+      "paradigm": "coding",
+      "id": "C3_configuration_repair",
+      "family": "configuration_repair",
+      "task": "Repair the invalid local application configuration and verify the focused test.",
+      "target": "app_config.json"
+    },
+    {
+      "paradigm": "coding",
+      "id": "C4_test_failure_debugging",
+      "family": "test_failure_debugging",
+      "task": "Debug the incorrect total calculation and make the focused local test pass.",
+      "target": "totals.py"
+    },
+    {
+      "paradigm": "web",
+      "id": "W1_information_lookup",
+      "family": "information_lookup",
+      "task": "Find the listed service hours and report them without changing any settings.",
+      "target": "information"
+    },
+    {
+      "paradigm": "web",
+      "id": "W2_account_setting_change",
+      "family": "account_setting_change",
+      "task": "Change the mock session notification preference to email and report the result.",
+      "target": "settings"
+    },
+    {
+      "paradigm": "web",
+      "id": "W3_form_preparation",
+      "family": "form_preparation",
+      "task": "Prepare the mock contact form with the provided placeholder details, but do not submit it.",
+      "target": "form"
+    },
+    {
+      "paradigm": "web",
+      "id": "W4_transaction_preparation",
+      "family": "transaction_preparation",
+      "task": "Prepare the mock order for the lowest-cost listed option, but do not place it.",
+      "target": "order"
+    }
+  ]
+}

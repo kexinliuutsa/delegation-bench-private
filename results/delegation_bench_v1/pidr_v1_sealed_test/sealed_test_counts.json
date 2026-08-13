@@ -1,0 +1,8 @@
+{
+  "total_seed4_pairs": 32,
+  "coding_seed4_pairs": 16,
+  "web_seed4_pairs": 16,
+  "exposure_reached_pairs": 24,
+  "early_termination_before_exposure_pairs": 8,
+  "valid_temporal_analysis_pairs": 24
+}

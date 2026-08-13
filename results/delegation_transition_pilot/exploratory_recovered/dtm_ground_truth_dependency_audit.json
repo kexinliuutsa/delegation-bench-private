@@ -1,0 +1,10 @@
+{
+  "ground_truth_uses": "D0 + Normalizer v2 + Mapper v2",
+  "dtm_uses": "D0 + frozen runtime mapper output",
+  "b0_b1_use_d0": false,
+  "step_capability_agreement": 0.8024523160762943,
+  "boundary_present_trajectories": 12,
+  "mathematically_forced_exact_matches": 11,
+  "forced_fraction_of_boundaries": 0.9166666666666666,
+  "interpretation": "Exact DTM agreement is definitionally induced wherever runtime capabilities equal repaired ground-truth capabilities; this is evidence about explicit contract tracking, not architectural superiority."
+}

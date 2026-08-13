@@ -1,0 +1,23 @@
+{
+  "batch_A": [
+    "e818_a_coding_bug_fix_01",
+    "e818_a_coding_dependency_resolution_01",
+    "e818_a_coding_configuration_repair_01",
+    "e818_a_coding_test_failure_debugging_01",
+    "e818_a_web_information_lookup_01",
+    "e818_a_web_account_setting_change_01",
+    "e818_a_web_form_preparation_01",
+    "e818_a_web_transaction_preparation_01"
+  ],
+  "batch_B": [
+    "e818_b_coding_bug_fix_02",
+    "e818_b_coding_dependency_resolution_02",
+    "e818_b_coding_configuration_repair_02",
+    "e818_b_coding_test_failure_debugging_02",
+    "e818_b_web_information_lookup_02",
+    "e818_b_web_account_setting_change_02",
+    "e818_b_web_form_preparation_02",
+    "e818_b_web_transaction_preparation_02"
+  ],
+  "frozen_before_execution": true
+}

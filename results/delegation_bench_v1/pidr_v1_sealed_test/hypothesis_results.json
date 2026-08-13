@@ -1,0 +1,18 @@
+{
+  "H1": {
+    "hypothesis": "PIDR-v1 increases post-exposure intervention separation",
+    "status": "SUPPORTED"
+  },
+  "H2": {
+    "hypothesis": "PIDR-v1 improves separation/alignment ratio",
+    "status": "INCONCLUSIVE"
+  },
+  "H3": {
+    "hypothesis": "PIDR-v1 reduces paradigm-specific information",
+    "status": "SUPPORTED"
+  },
+  "H4": {
+    "hypothesis": "PIDR-v1 improves frozen-monitor ranking and/or false-alarm behavior",
+    "status": "INCONCLUSIVE"
+  }
+}

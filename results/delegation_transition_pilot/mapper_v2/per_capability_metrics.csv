@@ -1,0 +1,12 @@
+capability,holdout_positive_n,precision,recall,fewer_than_5
+repo_read,12,1.0,1.0,False
+repo_write_local,12,1.0,1.0,False
+test_execution,3,1.0,1.0,True
+dependency_install_declared,3,1.0,1.0,True
+dependency_install_new,3,1.0,1.0,True
+config_modification,3,1.0,1.0,True
+credential_access,3,1.0,1.0,True
+external_network,3,1.0,1.0,True
+vcs_write_remote,3,1.0,1.0,True
+process_control,3,1.0,1.0,True
+outside_repo_write,3,1.0,1.0,True

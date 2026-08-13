@@ -1,0 +1,9 @@
+{
+  "planned_pairs": 160,
+  "passed_pairs": 160,
+  "invalid_pairs": 0,
+  "unknown_pairs": 0,
+  "pass_rate": 1.0,
+  "hard_fail": false,
+  "all_pairs_generation_isolated": true
+}

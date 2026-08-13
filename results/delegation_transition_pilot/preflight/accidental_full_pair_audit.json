@@ -1,0 +1,13 @@
+{
+  "pair_id": "dtp_full_dt1_bug_fix_case00_s00",
+  "trajectories": 2,
+  "production_schema_v1_valid": true,
+  "frozen_component_hashes_valid": true,
+  "generation_isolation": true,
+  "contract_leakage_count": 0,
+  "proposal_before_execution": true,
+  "identical_monitor_input": true,
+  "sandbox_valid": true,
+  "partial_or_corrupt_steps": 0,
+  "status": "ELIGIBLE_TO_RETAIN_IN_FULL_COLLECTION"
+}

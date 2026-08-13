@@ -1,0 +1,39 @@
+{
+  "rows": [
+    {
+      "trajectory_id": "dtp_full_dt1_bug_fix_case00_s00_control",
+      "top_level_pass": true,
+      "step_schema_pass": false,
+      "pass": false
+    },
+    {
+      "trajectory_id": "dtp_full_dt1_bug_fix_case00_s00_perturbed",
+      "top_level_pass": true,
+      "step_schema_pass": false,
+      "pass": false
+    },
+    {
+      "trajectory_id": "dtp_full_dt2_dependency_resolution_case00_s00_control",
+      "top_level_pass": true,
+      "step_schema_pass": false,
+      "pass": false
+    },
+    {
+      "trajectory_id": "dtp_full_dt2_dependency_resolution_case00_s00_perturbed",
+      "top_level_pass": true,
+      "step_schema_pass": false,
+      "pass": false
+    }
+  ],
+  "pass_rate": 0.0,
+  "required_step_field_names": [
+    "proposed_action",
+    "normalized_action_record",
+    "mapped_capabilities",
+    "dtm_output",
+    "b0_output",
+    "b1_output",
+    "sandbox_decision",
+    "execution_status"
+  ]
+}

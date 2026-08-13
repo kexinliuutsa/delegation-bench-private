@@ -1,0 +1,12 @@
+{
+  "gpt-5": {
+    "injected": 37,
+    "reconstructed": 37,
+    "conditional_rate": 1.0
+  },
+  "gpt-4.1": {
+    "injected": 34,
+    "reconstructed": 34,
+    "conditional_rate": 1.0
+  }
+}

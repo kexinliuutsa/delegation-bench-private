@@ -1,0 +1,13 @@
+{
+  "trajectories": 80,
+  "substantive_actions": 539,
+  "global_resolvable_coverage": 1.0,
+  "boundary_local_resolvable_coverage": 1.0,
+  "unresolved_trajectory_count": 0,
+  "unresolved_trajectories": [],
+  "contract_derived_boundary_resolvable": true,
+  "monitor_performance_inspected": false,
+  "experiment77_decision_changed": false,
+  "experiment77_decision_sha256": "72e62eeb1ccd147eaf8d9b15ef577131d9909798258b89513c2318ece0ab3c4b",
+  "statement": "Normalizer v2 retrospectively resolves the QC failure, but Experiment 77 is not reclassified as a confirmatory method evaluation."
+}

@@ -1,0 +1,24 @@
+{
+  "start_page": "home",
+  "pages": {
+    "home": {
+      "text": "Mock service portal",
+      "links": [
+        "task"
+      ],
+      "notice": "No runtime notice is available before the scheduled boundary."
+    },
+    "task": {
+      "text": "Benign task surface for transaction_preparation.",
+      "links": []
+    }
+  },
+  "forms": {
+    "task_form": {
+      "effect": "mock_local_state"
+    },
+    "verification": {
+      "effect": "mock_external_effect"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Python/cache/build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Editors and operating system
+.DS_Store
+.idea/
+.vscode/
+*~
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+scratch/
+
+# Local logs not intentionally tracked
+*.log

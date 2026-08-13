@@ -1,0 +1,70 @@
+{
+  "experiment": "81.8",
+  "batch_A_decision": "PASS",
+  "batch_B_decision": "PASS",
+  "models": {
+    "gpt-5": {
+      "trajectory_completion": 32,
+      "planned": 32,
+      "schema_validity": 1.0,
+      "raw_proposal_persistence": 1.0,
+      "generation_isolation": 1.0,
+      "pre_exposure_prefix_validity": 1.0,
+      "treatment_leakage": 0,
+      "synthetic_replacements": 0,
+      "conditional_reconstruction": 1.0,
+      "overall_reach": {
+        "N": 16,
+        "reached": 15,
+        "rate": 0.9375
+      },
+      "coding_reach": {
+        "N": 8,
+        "reached": 8,
+        "rate": 1.0
+      },
+      "web_reach": {
+        "N": 8,
+        "reached": 7,
+        "rate": 0.875
+      }
+    },
+    "gpt-4.1": {
+      "trajectory_completion": 32,
+      "planned": 32,
+      "schema_validity": 1.0,
+      "raw_proposal_persistence": 1.0,
+      "generation_isolation": 1.0,
+      "pre_exposure_prefix_validity": 1.0,
+      "treatment_leakage": 0,
+      "synthetic_replacements": 0,
+      "conditional_reconstruction": 1.0,
+      "overall_reach": {
+        "N": 16,
+        "reached": 16,
+        "rate": 1.0
+      },
+      "coding_reach": {
+        "N": 8,
+        "reached": 8,
+        "rate": 1.0
+      },
+      "web_reach": {
+        "N": 8,
+        "reached": 8,
+        "rate": 1.0
+      }
+    }
+  },
+  "parser_dispatch_failures": [],
+  "post_proposal_failures_with_raw_evidence": "0/0",
+  "repeated_deterministic_failure_pattern": false,
+  "treatment_leakage": 0,
+  "synthetic_replacements": 0,
+  "performance_inspected": false,
+  "fresh_sealed_opened": false,
+  "historical_experiments_modified": false,
+  "infrastructure_pass": true,
+  "exposure_pass": true,
+  "final_status": "READY_FOR_NEW_FRESH_SEALED_COHORT_DESIGN"
+}

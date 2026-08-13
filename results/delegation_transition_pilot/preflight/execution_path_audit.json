@@ -1,0 +1,10 @@
+{
+  "expected_trajectories": 4,
+  "real_smoke_trajectories": 4,
+  "selected_outputs_complete": true,
+  "frozen_component_mismatches": [],
+  "proposed_steps": 34,
+  "proposal_before_execution_rate": 1.0,
+  "identical_proposal_hash_rate": 1.0,
+  "sandbox_block_before_execution_rate": null
+}

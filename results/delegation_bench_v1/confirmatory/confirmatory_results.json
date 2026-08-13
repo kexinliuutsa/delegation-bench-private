@@ -1,0 +1,231 @@
+{
+  "experiment": 70,
+  "confirmatory_pairs_analyzed": 133,
+  "complete_pairs_available": 160,
+  "excluded_without_actual_exposure": 27,
+  "coding_pairs_analyzed": 80,
+  "web_pairs_analyzed": 53,
+  "primary": {
+    "All_action": {
+      "n": 133,
+      "mean_pre": 0.2199248120300752,
+      "median_pre": 0.0,
+      "mean_post": 0.7185732187611887,
+      "mean_delta": 0.4986484067311135,
+      "median_delta": 0.5,
+      "mean_delta_ci95": [
+        0.439953529657477,
+        0.5565165145005371
+      ],
+      "bootstrap_two_sided_p": 0.0,
+      "proportion_delta_gt_0": 0.8947368421052632,
+      "proportion_delta_gt_0_wilson95": [
+        0.8310559993680768,
+        0.9362553177202877
+      ]
+    },
+    "All_capability_sequence": {
+      "n": 133,
+      "mean_pre": 0.045112781954887216,
+      "median_pre": 0.0,
+      "mean_post": 0.3608425826470939,
+      "mean_delta": 0.3157298006922067,
+      "median_delta": 0.25,
+      "mean_delta_ci95": [
+        0.2715951336675021,
+        0.3623364214106695
+      ],
+      "bootstrap_two_sided_p": 0.0,
+      "proportion_delta_gt_0": 0.8345864661654135,
+      "proportion_delta_gt_0_wilson95": [
+        0.7622362392369156,
+        0.8881514485808409
+      ]
+    },
+    "All_capability_set": {
+      "n": 133,
+      "mean_pre": 0.041353383458646614,
+      "median_pre": 0.0,
+      "mean_post": 0.14786967418546365,
+      "mean_delta": 0.10651629072681704,
+      "median_delta": 0.0,
+      "mean_delta_ci95": [
+        0.05764411027568922,
+        0.15538847117794485
+      ],
+      "bootstrap_two_sided_p": 0.0,
+      "proportion_delta_gt_0": 0.24812030075187969,
+      "proportion_delta_gt_0_wilson95": [
+        0.18247886779370287,
+        0.3279034346356264
+      ]
+    },
+    "Coding_action": {
+      "n": 80,
+      "mean_pre": 0.24479166666666666,
+      "median_pre": 0.0,
+      "mean_post": 0.5728571428571428,
+      "mean_delta": 0.3280654761904762,
+      "median_delta": 0.35,
+      "mean_delta_ci95": [
+        0.26072879464285714,
+        0.3921004464285714
+      ],
+      "bootstrap_two_sided_p": 0.0,
+      "proportion_delta_gt_0": 0.8375,
+      "proportion_delta_gt_0_wilson95": [
+        0.7415709565930229,
+        0.9025018059704963
+      ]
+    },
+    "Coding_capability_sequence": {
+      "n": 80,
+      "mean_pre": 0.028125,
+      "median_pre": 0.0,
+      "mean_post": 0.20209821428571428,
+      "mean_delta": 0.17397321428571427,
+      "median_delta": 0.16666666666666666,
+      "mean_delta_ci95": [
+        0.14226078869047618,
+        0.20614620535714284
+      ],
+      "bootstrap_two_sided_p": 0.0,
+      "proportion_delta_gt_0": 0.7625,
+      "proportion_delta_gt_0_wilson95": [
+        0.6585922106615945,
+        0.8423532713322537
+      ]
+    },
+    "Coding_capability_set": {
+      "n": 80,
+      "mean_pre": 0.05,
+      "median_pre": 0.0,
+      "mean_post": 0.029166666666666664,
+      "mean_delta": -0.020833333333333336,
+      "median_delta": 0.0,
+      "mean_delta_ci95": [
+        -0.05416666666666667,
+        0.010416666666666664
+      ],
+      "bootstrap_two_sided_p": 0.1624,
+      "proportion_delta_gt_0": 0.05,
+      "proportion_delta_gt_0_wilson95": [
+        0.01961355453554428,
+        0.1216227620464301
+      ]
+    },
+    "Web_action": {
+      "n": 53,
+      "mean_pre": 0.18238993710691823,
+      "median_pre": 0.0,
+      "mean_post": 0.9385220125786163,
+      "mean_delta": 0.7561320754716981,
+      "median_delta": 0.8,
+      "mean_delta_ci95": [
+        0.6874737945492663,
+        0.8191850104821803
+      ],
+      "bootstrap_two_sided_p": 0.0,
+      "proportion_delta_gt_0": 0.9811320754716981,
+      "proportion_delta_gt_0_wilson95": [
+        0.9005708794749876,
+        0.9966615466117361
+      ]
+    },
+    "Web_capability_sequence": {
+      "n": 53,
+      "mean_pre": 0.07075471698113207,
+      "median_pre": 0.0,
+      "mean_post": 0.6004567235699311,
+      "mean_delta": 0.5297020065887991,
+      "median_delta": 0.5,
+      "mean_delta_ci95": [
+        0.45696802935010483,
+        0.6017546421084157
+      ],
+      "bootstrap_two_sided_p": 0.0,
+      "proportion_delta_gt_0": 0.9433962264150944,
+      "proportion_delta_gt_0_wilson95": [
+        0.8462979168981911,
+        0.9805633385150642
+      ]
+    },
+    "Web_capability_set": {
+      "n": 53,
+      "mean_pre": 0.02830188679245283,
+      "median_pre": 0.0,
+      "mean_post": 0.3270440251572327,
+      "mean_delta": 0.29874213836477986,
+      "median_delta": 0.3333333333333333,
+      "mean_delta_ci95": [
+        0.20754716981132074,
+        0.3930817610062893
+      ],
+      "bootstrap_two_sided_p": 0.0,
+      "proportion_delta_gt_0": 0.5471698113207547,
+      "proportion_delta_gt_0_wilson95": [
+        0.414539754871058,
+        0.6734242084707774
+      ]
+    }
+  },
+  "interactions": {
+    "action": {
+      "point_estimate": 0.4280665992812219,
+      "ci95": [
+        0.33219404200359387,
+        0.5196171945193172
+      ],
+      "probability_gt_0": 1.0
+    },
+    "capability_sequence": {
+      "point_estimate": 0.3557287923030848,
+      "ci95": [
+        0.27658892772911053,
+        0.4329192801924228
+      ],
+      "probability_gt_0": 1.0
+    },
+    "capability_set": {
+      "point_estimate": 0.3195754716981132,
+      "ci95": [
+        0.22417256289308174,
+        0.4190261399371069
+      ],
+      "probability_gt_0": 1.0
+    }
+  },
+  "pre_exposure_divergence_rate": 0.45112781954887216,
+  "equal_length_n": 38,
+  "recovery_excluded": {
+    "n": 129,
+    "mean_pre": 0.22286821705426357,
+    "median_pre": 0.0,
+    "mean_post": 0.7123446536237233,
+    "mean_delta": 0.4894764365694598,
+    "median_delta": 0.5,
+    "mean_delta_ci95": [
+      0.4293979943398548,
+      0.5481943675402978
+    ],
+    "bootstrap_two_sided_p": 0.0,
+    "proportion_delta_gt_0": 0.8914728682170543,
+    "proportion_delta_gt_0_wilson95": [
+      0.8260607830534078,
+      0.9342440261276411
+    ]
+  },
+  "freeze_audit": {
+    "protocol_hashes_verified": true,
+    "split_unchanged": true,
+    "statistical_plan_unchanged": true,
+    "raw_trajectory_count": 320,
+    "raw_trajectories_unchanged": true,
+    "pidr_files_unchanged": true,
+    "new_rollouts_created": false,
+    "forbidden_labels_created": false,
+    "aggregation_selected_on_seed4": false
+  },
+  "recommendation": "PROCEED_TO_PIDR_V1",
+  "pidr_trained": false
+}

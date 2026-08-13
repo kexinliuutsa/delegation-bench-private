@@ -1,0 +1,25 @@
+{
+  "by_endpoint": {
+    "recovery": {
+      "available_endpoint_ids": 133,
+      "joinable_ids": 133,
+      "join_rate": 1.0
+    },
+    "adoption": {
+      "available_endpoint_ids": 2,
+      "joinable_ids": 2,
+      "join_rate": 1.0
+    },
+    "scope": {
+      "available_endpoint_ids": 0,
+      "joinable_ids": 0,
+      "join_rate": null
+    }
+  },
+  "all_available_endpoint_ids": 133,
+  "all_joinable_ids": 133,
+  "join_rate": 1.0,
+  "normalized_identifier_index_ids": 160,
+  "pidr_values_loaded": false,
+  "pidr_values_inspected": false
+}

@@ -1,0 +1,14 @@
+{
+  "frozen_at": "2026-08-12T10:32:05.714543+00:00",
+  "selected_hyperparameters": {
+    "latent_dimension": 128,
+    "lambda_sep": 1.0,
+    "beta_temp": 0.1,
+    "margin": 0.2,
+    "gamma_var": 0.1
+  },
+  "model_artifact_sha256": "655bed0859a0df162b82c83b8bca096de66ffbd30eef86feb75d64ff5983bded",
+  "training_script_sha256": "72f44db0e283052be36f0d9c92fd943f7115f7cabebb2d0cfd25add8de00d302",
+  "evaluation_script_sha256": "b758d9c8f55edfb2815b66b28f1c0a9eb80816c672de235fd0d6e36b17edc89f",
+  "statement": "Seed 4 sealed test has not been accessed."
+}

@@ -1,0 +1,1029 @@
+{
+  "opened_trajectory_paths": [
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_explicit_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_explicit_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_explicit_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_explicit_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_explicit_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_explicit_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_indirect_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_indirect_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_indirect_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_indirect_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_indirect_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_indirect_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_authority_impersonation_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_authority_impersonation_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_authority_impersonation_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_authority_impersonation_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_authority_impersonation_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_authority_impersonation_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_multi_step_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_multi_step_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_multi_step_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_multi_step_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_multi_step_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_multi_step_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_explicit_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_explicit_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_explicit_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_explicit_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_explicit_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_explicit_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_indirect_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_indirect_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_indirect_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_indirect_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_indirect_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_indirect_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_authority_impersonation_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_authority_impersonation_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_authority_impersonation_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_authority_impersonation_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_authority_impersonation_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_authority_impersonation_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_multi_step_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_multi_step_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_multi_step_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_multi_step_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_multi_step_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_multi_step_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_explicit_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_explicit_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_explicit_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_explicit_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_explicit_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_explicit_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_indirect_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_indirect_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_indirect_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_indirect_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_indirect_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_indirect_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_authority_impersonation_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_authority_impersonation_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_authority_impersonation_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_authority_impersonation_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_authority_impersonation_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_authority_impersonation_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_multi_step_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_multi_step_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_multi_step_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_multi_step_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_multi_step_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_multi_step_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_explicit_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_explicit_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_explicit_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_explicit_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_explicit_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_explicit_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_indirect_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_indirect_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_indirect_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_indirect_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_indirect_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_indirect_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_authority_impersonation_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_authority_impersonation_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_authority_impersonation_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_authority_impersonation_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_authority_impersonation_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_authority_impersonation_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_multi_step_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_multi_step_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_multi_step_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_multi_step_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_multi_step_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_multi_step_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_explicit_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_explicit_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_explicit_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_explicit_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_explicit_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_explicit_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_indirect_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_indirect_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_indirect_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_indirect_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_indirect_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_indirect_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_authority_impersonation_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_authority_impersonation_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_authority_impersonation_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_authority_impersonation_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_authority_impersonation_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_authority_impersonation_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_multi_step_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_multi_step_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_multi_step_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_multi_step_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_multi_step_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_multi_step_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_explicit_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_explicit_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_explicit_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_explicit_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_explicit_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_explicit_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_indirect_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_indirect_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_indirect_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_indirect_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_indirect_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_indirect_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_authority_impersonation_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_authority_impersonation_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_authority_impersonation_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_authority_impersonation_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_authority_impersonation_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_authority_impersonation_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_multi_step_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_multi_step_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_multi_step_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_multi_step_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_multi_step_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_multi_step_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_explicit_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_explicit_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_explicit_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_explicit_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_explicit_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_explicit_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_indirect_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_indirect_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_indirect_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_indirect_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_indirect_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_indirect_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_authority_impersonation_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_authority_impersonation_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_authority_impersonation_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_authority_impersonation_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_authority_impersonation_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_authority_impersonation_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_multi_step_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_multi_step_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_multi_step_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_multi_step_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_multi_step_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_multi_step_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_explicit_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_explicit_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_explicit_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_explicit_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_explicit_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_explicit_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_indirect_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_indirect_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_indirect_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_indirect_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_indirect_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_indirect_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_authority_impersonation_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_authority_impersonation_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_authority_impersonation_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_authority_impersonation_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_authority_impersonation_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_authority_impersonation_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_multi_step_s00_control.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_multi_step_s00_treatment.json",
+      "seed": 0
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_multi_step_s01_control.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_multi_step_s01_treatment.json",
+      "seed": 1
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_multi_step_s02_control.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_multi_step_s02_treatment.json",
+      "seed": 2
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_explicit_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_explicit_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_indirect_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_indirect_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_authority_impersonation_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_authority_impersonation_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_multi_step_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C1_bug_fix_multi_step_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_explicit_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_explicit_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_indirect_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_indirect_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_authority_impersonation_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_authority_impersonation_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_multi_step_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C2_dependency_resolution_multi_step_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_explicit_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_explicit_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_indirect_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_indirect_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_authority_impersonation_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_authority_impersonation_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_multi_step_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C3_configuration_repair_multi_step_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_explicit_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_explicit_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_indirect_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_indirect_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_authority_impersonation_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_authority_impersonation_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_multi_step_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_coding_C4_test_failure_debugging_multi_step_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_explicit_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_explicit_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_indirect_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_indirect_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_authority_impersonation_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_authority_impersonation_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_multi_step_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W1_information_lookup_multi_step_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_explicit_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_explicit_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_indirect_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_indirect_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_authority_impersonation_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_authority_impersonation_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_multi_step_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W2_account_setting_change_multi_step_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_explicit_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_explicit_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_indirect_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_indirect_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_authority_impersonation_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_authority_impersonation_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_multi_step_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W3_form_preparation_multi_step_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_explicit_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_explicit_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_indirect_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_indirect_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_authority_impersonation_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_authority_impersonation_s03_treatment.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_multi_step_s03_control.json",
+      "seed": 3
+    },
+    {
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_bench_v1/raw/v1_web_W4_transaction_preparation_multi_step_s03_treatment.json",
+      "seed": 3
+    }
+  ],
+  "seed_4_accessed": false
+}

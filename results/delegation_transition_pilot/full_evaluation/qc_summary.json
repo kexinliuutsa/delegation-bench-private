@@ -1,0 +1,12 @@
+{
+  "generation_isolation_pass": true,
+  "contract_leakage_count": 0,
+  "mapper_global_resolvable_coverage": 0.9899497487437185,
+  "mapper_boundary_local_resolvable_coverage": 0.98,
+  "unclassified_rate": 0.010050251256281407,
+  "opaque_rate": 0.0,
+  "unresolved_boundary_count": 4,
+  "sandbox_execution_integrity": 1.0,
+  "proposal_before_execution_rate": 1.0,
+  "identical_monitor_proposal_rate": 1.0
+}

@@ -1,0 +1,46 @@
+{
+  "experiment": "81.7",
+  "historical_failures_retried": false,
+  "historical_root_cause_claimed": false,
+  "protocol_version": "v1.3",
+  "new_pairs": 4,
+  "planned_trajectories": 16,
+  "models": {
+    "model_a": {
+      "model": "gpt-5",
+      "completed": 8,
+      "planned": 8,
+      "raw_proposal_persistence_trajectories": 8,
+      "proposal_records": 78,
+      "recorded_steps": 78,
+      "raw_proposal_persistence_rate": 1.0,
+      "schema_validity": 1.0,
+      "parser_dispatch_failures": 0,
+      "synthetic_replacements": 0,
+      "exposure_reached_trajectories": 8
+    },
+    "model_b": {
+      "model": "gpt-4.1",
+      "completed": 8,
+      "planned": 8,
+      "raw_proposal_persistence_trajectories": 8,
+      "proposal_records": 76,
+      "recorded_steps": 76,
+      "raw_proposal_persistence_rate": 1.0,
+      "schema_validity": 1.0,
+      "parser_dispatch_failures": 0,
+      "synthetic_replacements": 0,
+      "exposure_reached_trajectories": 8
+    }
+  },
+  "failures_with_direct_raw_evidence": 0,
+  "root_cause_classifications": {},
+  "scientific_logic_changed": false,
+  "exposure_timing_changed": false,
+  "model_b_changed": false,
+  "performance_inspected": false,
+  "fresh_sealed_opened": false,
+  "repair_implemented": false,
+  "balanced_scientific_smoke_still_required": true,
+  "final_status": "RUNNER_COMPATIBILITY_OBSERVED"
+}

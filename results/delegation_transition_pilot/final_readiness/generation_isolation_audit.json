@@ -1,0 +1,27 @@
+{
+  "pairs": [
+    {
+      "pair_id": "dtp_diag_01_bug_fix_s0",
+      "pass": true
+    },
+    {
+      "pair_id": "dtp_diag_02_dependency_resolution_s0",
+      "pass": true
+    },
+    {
+      "pair_id": "dtp_diag_03_configuration_repair_s0",
+      "pass": true
+    },
+    {
+      "pair_id": "dtp_diag_04_test_failure_debugging_s0",
+      "pass": true
+    },
+    {
+      "pair_id": "dtp_diag_05_repository_maintenance_s0",
+      "pass": true
+    }
+  ],
+  "passed": 5,
+  "total": 5,
+  "contract_leakage": false
+}

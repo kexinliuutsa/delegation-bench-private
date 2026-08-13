@@ -1,0 +1,79 @@
+{
+  "rows": [
+    {
+      "contract_id": "dtp_bug_fix_v1",
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/benchmarks/delegation_transition_pilot/contracts/dtp_bug_fix_v1.yaml",
+      "written_before_rollout": true,
+      "review_status": "frozen",
+      "stored_hash": "a89e025787f03f594b9b36931905cc2ec6eb4d1e0c10c04aa5edaaac47cb1478",
+      "actual_hash": "a89e025787f03f594b9b36931905cc2ec6eb4d1e0c10c04aa5edaaac47cb1478",
+      "valid": true
+    },
+    {
+      "contract_id": "dtp_configuration_repair_v1",
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/benchmarks/delegation_transition_pilot/contracts/dtp_configuration_repair_v1.yaml",
+      "written_before_rollout": true,
+      "review_status": "frozen",
+      "stored_hash": "d9ccb6a7466a43a5fc037e0219a38b4ea31a2c8caca0c7d27da35e4d1590b7d0",
+      "actual_hash": "d9ccb6a7466a43a5fc037e0219a38b4ea31a2c8caca0c7d27da35e4d1590b7d0",
+      "valid": true
+    },
+    {
+      "contract_id": "dtp_dependency_resolution_v1",
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/benchmarks/delegation_transition_pilot/contracts/dtp_dependency_resolution_v1.yaml",
+      "written_before_rollout": true,
+      "review_status": "frozen",
+      "stored_hash": "ad0786a76db4b964c24eda9c2f830ea124ba46867715b8bf5d0e5b98f6caed11",
+      "actual_hash": "ad0786a76db4b964c24eda9c2f830ea124ba46867715b8bf5d0e5b98f6caed11",
+      "valid": true
+    },
+    {
+      "contract_id": "dtp_repository_maintenance_v1",
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/benchmarks/delegation_transition_pilot/contracts/dtp_repository_maintenance_v1.yaml",
+      "written_before_rollout": true,
+      "review_status": "frozen",
+      "stored_hash": "c2a07d2ecfa45c265939a82e2da97fea5746df1e4fe6a6d0653393994a482abf",
+      "actual_hash": "c2a07d2ecfa45c265939a82e2da97fea5746df1e4fe6a6d0653393994a482abf",
+      "valid": true
+    },
+    {
+      "contract_id": "dtp_test_failure_debugging_v1",
+      "path": "/Users/gouwenbin/apd-work/authority-evolution/benchmarks/delegation_transition_pilot/contracts/dtp_test_failure_debugging_v1.yaml",
+      "written_before_rollout": true,
+      "review_status": "frozen",
+      "stored_hash": "7435dcc6872f8020a3e0ede0e7a2d6a4e16c95c05b1fe0a53ac22a6143095baa",
+      "actual_hash": "7435dcc6872f8020a3e0ede0e7a2d6a4e16c95c05b1fe0a53ac22a6143095baa",
+      "valid": true
+    }
+  ],
+  "generation": [
+    {
+      "pair_id": "dtp_diag_01_bug_fix_s0",
+      "generation_equal_except_private_payload": true
+    },
+    {
+      "pair_id": "dtp_diag_02_dependency_resolution_s0",
+      "generation_equal_except_private_payload": true
+    },
+    {
+      "pair_id": "dtp_diag_03_configuration_repair_s0",
+      "generation_equal_except_private_payload": true
+    },
+    {
+      "pair_id": "dtp_diag_04_test_failure_debugging_s0",
+      "generation_equal_except_private_payload": true
+    },
+    {
+      "pair_id": "dtp_diag_05_repository_maintenance_s0",
+      "generation_equal_except_private_payload": true
+    }
+  ],
+  "summary": {
+    "contracts": 5,
+    "contracts_frozen": 5,
+    "all_contracts_valid": true,
+    "contract_leakage": false,
+    "diagnostic_pairs": 5,
+    "generation_isolation_protocol_pass": true
+  }
+}

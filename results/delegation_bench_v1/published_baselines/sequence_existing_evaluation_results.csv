@@ -1,0 +1,5 @@
+method,auroc,benign_false_alarm,pair_detection
+Action frequency,MISSING_PROJECT_ARTIFACT,NA,NA
+Markov,MISSING_PROJECT_ARTIFACT,NA,NA
+Sequence autoencoder,MISSING_PROJECT_ARTIFACT,NA,NA
+DeepLog,0.552734375,0.28125,0.3125

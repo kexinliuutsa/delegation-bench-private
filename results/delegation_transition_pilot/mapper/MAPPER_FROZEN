@@ -1,0 +1,9 @@
+{
+  "sha256": "d156941d1ede3926abb1e87463b9391e63a9516f9907d08fca73fb6e9b69e225",
+  "frozen_before_diagnostic_evaluation": true,
+  "allowed_development_sources": [
+    "unit tests",
+    "mapper_dev_cases.json",
+    "non-evaluation parser fixtures"
+  ]
+}

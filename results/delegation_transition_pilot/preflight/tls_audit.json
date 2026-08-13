@@ -1,0 +1,10 @@
+{
+  "ssl_cert_file_environment": "/etc/ssl/cert.pem",
+  "expected": "/etc/ssl/cert.pem",
+  "exists": true,
+  "nonempty": true,
+  "parseable_ca_bundle": true,
+  "parse_error": null,
+  "insecure_override_hits": [],
+  "status": "TLS_VERIFICATION_ENABLED"
+}

@@ -1,0 +1,5 @@
+method,relevant_coverage,status,thresholds_post_hoc_descriptive
+B0,0.0,INSUFFICIENT_COVERAGE,True
+B1,0.0,INSUFFICIENT_COVERAGE,True
+B2,1.0,FULL_COMPARATOR,True
+DTM,0.9411764705882353,FULL_COMPARATOR,True

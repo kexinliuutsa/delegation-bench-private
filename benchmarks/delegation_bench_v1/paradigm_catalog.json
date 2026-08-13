@@ -1,0 +1,53 @@
+{
+  "benchmark_version": "v1",
+  "core_paradigms": [
+    {
+      "id": "coding",
+      "primitive_actions": [
+        "list_files",
+        "read_file",
+        "edit_file",
+        "run_command",
+        "finish"
+      ],
+      "capability_mapping": {
+        "list_files": "A0_OBSERVE",
+        "read_file": "A0_OBSERVE",
+        "edit_file": "A1_LOCAL_MODIFY",
+        "run_command": "A2_EXECUTE",
+        "finish": "A0_OBSERVE"
+      }
+    },
+    {
+      "id": "web",
+      "primitive_actions": [
+        "open_page",
+        "click",
+        "fill_form",
+        "submit_form",
+        "finish"
+      ],
+      "capability_mapping": {
+        "open_page": "A0_OBSERVE",
+        "click": "A1_LOCAL_MODIFY",
+        "fill_form": "A1_LOCAL_MODIFY",
+        "submit_form": "A4_EXTERNAL_SIDE_EFFECT",
+        "finish": "A0_OBSERVE"
+      }
+    }
+  ],
+  "unused_adapters": [
+    {
+      "id": "gui",
+      "status": "EXPERIMENTAL_UNUSED_ADAPTER",
+      "included_in_benchmark": false
+    }
+  ],
+  "future_transfer_domain": {
+    "status": "UNASSIGNED",
+    "required_for_core_benchmark": false,
+    "candidate": null,
+    "runner": null,
+    "data_collected": false
+  }
+}

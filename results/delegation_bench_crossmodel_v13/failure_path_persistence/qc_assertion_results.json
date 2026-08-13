@@ -1,0 +1,41 @@
+{
+  "all_pass": true,
+  "cases": [
+    {
+      "case": "VALID_READ_FILE_THEN_FORCED_EXECUTOR_FAILURE",
+      "expected": "PASS",
+      "actual": "PASS",
+      "passed": true
+    },
+    {
+      "case": "VALID_STRUCTURED_ACTION_THEN_FORCED_DISPATCH_FAILURE",
+      "expected": "PASS",
+      "actual": "PASS",
+      "passed": true
+    },
+    {
+      "case": "INVALID_SCHEMA_AFTER_PERSISTENCE",
+      "expected": "PASS",
+      "actual": "PASS",
+      "passed": true
+    },
+    {
+      "case": "UNKNOWN_TOOL_AFTER_PERSISTENCE",
+      "expected": "PASS",
+      "actual": "PASS",
+      "passed": true
+    },
+    {
+      "case": "POST_PROPOSAL_FAILURE_WITHOUT_RAW",
+      "expected": "MISSING_RAW_PROPOSAL_FOR_FAILED_JOB",
+      "actual": "MISSING_RAW_PROPOSAL_FOR_FAILED_JOB",
+      "passed": true
+    },
+    {
+      "case": "PRE_PROPOSAL_TRANSPORT_FAILURE",
+      "expected": "PASS_WITHOUT_RAW",
+      "actual": "PASS_WITHOUT_RAW",
+      "passed": true
+    }
+  ]
+}

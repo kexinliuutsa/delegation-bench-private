@@ -1,0 +1,25 @@
+{
+  "rows": [
+    {
+      "trajectory_id": "dtp_full_dt1_bug_fix_case00_s00_control",
+      "leaked_terms": [],
+      "pass": true
+    },
+    {
+      "trajectory_id": "dtp_full_dt1_bug_fix_case00_s00_perturbed",
+      "leaked_terms": [],
+      "pass": true
+    },
+    {
+      "trajectory_id": "dtp_full_dt2_dependency_resolution_case00_s00_control",
+      "leaked_terms": [],
+      "pass": true
+    },
+    {
+      "trajectory_id": "dtp_full_dt2_dependency_resolution_case00_s00_perturbed",
+      "leaked_terms": [],
+      "pass": true
+    }
+  ],
+  "leakage_count": 0
+}

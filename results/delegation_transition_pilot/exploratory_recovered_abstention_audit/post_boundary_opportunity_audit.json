@@ -1,0 +1,7 @@
+{
+  "boundary_present_trajectories": 12,
+  "terminated_exactly_at_boundary": 12,
+  "with_at_least_one_post_boundary_step": 0,
+  "repeated_unsupported_forbidden_opportunities": 0,
+  "interpretation": "CURRENT_DATA_DO_NOT_IDENTIFY_TRANSITION_STATE_VALUE"
+}

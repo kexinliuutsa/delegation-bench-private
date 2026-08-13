@@ -1,0 +1,37 @@
+{
+  "new_rollouts": 0,
+  "train_pairs": 96,
+  "development_pairs": 32,
+  "existing_evaluation_pairs": 32,
+  "pidr_model_sha256": "655bed0859a0df162b82c83b8bca096de66ffbd30eef86feb75d64ff5983bded",
+  "pidr_retrained": false,
+  "candidate_counts": {
+    "PIDR-v1": 24,
+    "CORAL": 24,
+    "MMD": 24,
+    "DeepLog": 24
+  },
+  "selected": {
+    "CORAL": {
+      "lambda": 30,
+      "latent_dimension": 64,
+      "temporal_weight": 0
+    },
+    "MMD": {
+      "lambda": 1,
+      "latent_dimension": 64,
+      "temporal_weight": 0
+    }
+  },
+  "deepLog_selected": {
+    "method": "DeepLog",
+    "embedding": 16,
+    "hidden": 32,
+    "history": 3,
+    "architecture": "GRU",
+    "auroc": 0.52490234375,
+    "benign_false_alarm": 0.1875,
+    "pair_detection": 0.25
+  },
+  "seed4_used_for_tuning": false
+}

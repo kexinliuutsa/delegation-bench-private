@@ -1,0 +1,14 @@
+{
+  "gpt-5": {
+    "overall": 37,
+    "Coding": 20,
+    "Web": 17,
+    "status": "EFFECTIVE_N_PREFERRED_PASS"
+  },
+  "gpt-4.1": {
+    "overall": 34,
+    "Coding": 20,
+    "Web": 14,
+    "status": "EFFECTIVE_N_PREFERRED_PASS"
+  }
+}

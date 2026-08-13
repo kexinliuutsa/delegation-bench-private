@@ -1,0 +1,3 @@
+representation,accuracy,probe_training
+Raw,0.9959016393442623,TRAIN representations only
+PIDR-v1,0.8975409836065574,TRAIN representations only

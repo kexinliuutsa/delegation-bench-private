@@ -1,0 +1,70 @@
+{
+  "experiment": "81.10",
+  "opening_marker": {
+    "timestamp": "2026-08-13T12:38:08.611379+00:00",
+    "protocol_SHA256": "c42a8d4a2180f9655eb6f28da24d9494ef14305d395dda709e738416e50b0b52",
+    "protocol_hash_manifest_SHA256": "563a33eca73048a98f8a9951f13ab97d776f8e11ab3c68e5744cf27e194f775b",
+    "manifest_SHA256": "eb6c8f9549415787babfa7884407f1a97ecc27ffaa1cba996ba43d3e69a294e0",
+    "model_identifiers": [
+      "gpt-5",
+      "gpt-4.1"
+    ],
+    "statement": "Fresh-sealed collection has begun. Protocol, methods, thresholds, success criteria, timing, allocation, and representation configurations are now immutable."
+  },
+  "protocol_sha_verified_before_opening": true,
+  "models": {
+    "gpt-5": {
+      "planned": 80,
+      "complete": 80,
+      "schema_valid": 80,
+      "received_proposals": 599,
+      "persisted_proposals": 599,
+      "proposal_persistence": 1.0,
+      "pre_proposal_failures": 0,
+      "post_proposal_failures": 0,
+      "successful_retries": 0,
+      "persistent_failures": 0,
+      "conditional_reconstruction": 1.0,
+      "early_termination": 3
+    },
+    "gpt-4.1": {
+      "planned": 80,
+      "complete": 68,
+      "schema_valid": 68,
+      "received_proposals": 709,
+      "persisted_proposals": 709,
+      "proposal_persistence": 1.0,
+      "pre_proposal_failures": 8,
+      "post_proposal_failures": 4,
+      "successful_retries": 0,
+      "persistent_failures": 12,
+      "conditional_reconstruction": 1.0,
+      "early_termination": 0
+    }
+  },
+  "total_complete": 148,
+  "planned_total": 160,
+  "generation_isolation_rate": 1.0,
+  "treatment_leakage": 0,
+  "effective_n": {
+    "gpt-5": {
+      "overall": 37,
+      "Coding": 20,
+      "Web": 17,
+      "status": "EFFECTIVE_N_PREFERRED_PASS"
+    },
+    "gpt-4.1": {
+      "overall": 34,
+      "Coding": 20,
+      "Web": 14,
+      "status": "EFFECTIVE_N_PREFERRED_PASS"
+    }
+  },
+  "post_proposal_failures": 4,
+  "unauditable_failures": 0,
+  "repeated_deterministic_parser_dispatch_executor_schema_failure": false,
+  "method_hashes_unchanged": true,
+  "performance_inspected": false,
+  "collection_frozen": false,
+  "final_status": "FRESH_SEALED_COLLECTION_INCOMPLETE"
+}

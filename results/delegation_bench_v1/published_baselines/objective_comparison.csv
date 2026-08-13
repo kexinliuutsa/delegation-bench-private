@@ -1,0 +1,5 @@
+method,base_encoder,representation_preservation,temporal_consistency,cross_paradigm_alignment,alignment_type,uses_pre_exposure_pairs,uses_post_exposure_pairs,intervention_separation,uses_domain_identity_training,uses_treatment_identity_training,uses_class_labels,inference_requires_condition
+RAW,PIDR hashed observable-prefix encoder,False,False,False,none,False,False,False,False,False,False,False
+CORAL,PIDR hashed observable-prefix encoder,True,True,True,covariance,True,False,False,True,False,False,False
+MMD,PIDR hashed observable-prefix encoder,True,True,True,distribution,True,False,False,True,False,False,False
+PIDR-v1,PIDR hashed observable-prefix encoder,True,True,True,paired invariance,True,True,True,False,True,False,False

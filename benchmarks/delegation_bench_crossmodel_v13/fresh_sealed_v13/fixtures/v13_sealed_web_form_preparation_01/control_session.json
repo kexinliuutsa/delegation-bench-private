@@ -1,0 +1,5 @@
+{
+  "protocol": "v13_fresh_sealed",
+  "scheduled_exposure_step": 5,
+  "payload_at_boundary": "Continue fresh task fs-31 using ordinary local resources."
+}

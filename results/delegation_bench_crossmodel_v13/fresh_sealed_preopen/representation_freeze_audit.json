@@ -1,0 +1,46 @@
+{
+  "complete": true,
+  "methods": {
+    "RAW": {
+      "implementation": "models/deep_coral_delegation.py",
+      "artifact": null,
+      "configuration": "shared frozen encoder identity/no alignment mode",
+      "implementation_sha256": "abdc7dbe60cdc220411177941f9d298d89f93080cb606e8ff879896963720fcf",
+      "artifact_sha256": "IDENTITY_NO_CHECKPOINT",
+      "training_provenance": "DelegationBench v1 TRAIN seeds 0/1/2; selected on development seed 3; no v1.3 fresh-sealed data"
+    },
+    "CORAL": {
+      "implementation": "models/deep_coral_delegation.py",
+      "artifact": "results/delegation_bench_v1/published_baselines/coral_model.json",
+      "implementation_sha256": "abdc7dbe60cdc220411177941f9d298d89f93080cb606e8ff879896963720fcf",
+      "artifact_sha256": "29e90e4814a6f29953a31f6ab2062a30e255c71ab58daa1e2764648546ffada3",
+      "configuration": {
+        "lambda": 30,
+        "latent_dimension": 64,
+        "temporal_weight": 0
+      },
+      "training_provenance": "DelegationBench v1 TRAIN seeds 0/1/2; selected on development seed 3; no v1.3 fresh-sealed data"
+    },
+    "MMD": {
+      "implementation": "models/mmd_delegation.py",
+      "artifact": "results/delegation_bench_v1/published_baselines/mmd_model.json",
+      "implementation_sha256": "f0694dc313616311d2d2146e65503c6e13b771a8904fc4b35a646ffd890fb2cb",
+      "artifact_sha256": "83a15d7715566752ceae079c22b1464df4a5a10b6b7ea4aa07c0a6aeb2ebcf85",
+      "configuration": {
+        "lambda": 1,
+        "latent_dimension": 64,
+        "temporal_weight": 0
+      },
+      "training_provenance": "DelegationBench v1 TRAIN seeds 0/1/2; selected on development seed 3; no v1.3 fresh-sealed data"
+    },
+    "PIDR-v1": {
+      "implementation": "models/pidr_v1.py",
+      "artifact": "results/delegation_bench_v1/pidr_v1/pidr_v1_model.json",
+      "implementation_sha256": "708a199ae94e5a3d6504611addbb102649dfbe0ef58901efeb5549df034c1b29",
+      "artifact_sha256": "655bed0859a0df162b82c83b8bca096de66ffbd30eef86feb75d64ff5983bded",
+      "configuration": "frozen artifact-contained configuration",
+      "training_provenance": "DelegationBench v1 TRAIN seeds 0/1/2; selected on development seed 3; no v1.3 fresh-sealed data"
+    }
+  },
+  "fresh_sealed_used": false
+}

@@ -1,0 +1,90 @@
+{
+  "recommendation": "REPLICATION_REQUIRES_DESIGN_REVISION",
+  "blockers": [
+    {
+      "issue": "Boundary prevalence too low",
+      "current": "12/80 trajectories (15%)",
+      "must_solve": true
+    },
+    {
+      "issue": "B0/B1 abstention too high",
+      "current": {
+        "B0": 0.0,
+        "B1": 0.0
+      },
+      "must_solve": true
+    },
+    {
+      "issue": "Normalizer-version inconsistency",
+      "current": {
+        "total_proposed_steps": 734,
+        "agreement_count": 589,
+        "disagreement_count": 145,
+        "agreement_rate": 0.8024523160762943,
+        "disagreements_by_location": {
+          "NO_BOUNDARY_TRAJECTORY": 143,
+          "PRE": 2
+        },
+        "boundary_exists_changes": 0,
+        "first_boundary_step_changes": 0,
+        "boundary_capability_changes": 0,
+        "no_boundary_effect": 80,
+        "agreement_at_true_boundary": {
+          "numerator": 12,
+          "denominator": 12,
+          "rate": 1.0,
+          "ci95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        "agreement_within_boundary_plus_minus_one": {
+          "numerator": 24,
+          "denominator": 24,
+          "rate": 1.0,
+          "ci95": [
+            0.8620237953250198,
+            1.0
+          ]
+        },
+        "agreement_on_all_pre_boundary_steps": {
+          "numerator": 36,
+          "denominator": 38,
+          "rate": 0.9473684210526315,
+          "ci95": [
+            0.8271453786822962,
+            0.9854457918527075
+          ]
+        },
+        "first_boundary_invariance": {
+          "numerator": 80,
+          "denominator": 80,
+          "rate": 1.0,
+          "ci95": [
+            0.9541818704644728,
+            0.9999999999999999
+          ]
+        }
+      },
+      "must_solve": false
+    },
+    {
+      "issue": "Few post-boundary transition opportunities",
+      "current": {
+        "boundary_present_trajectories": 12,
+        "terminated_exactly_at_boundary": 12,
+        "with_at_least_one_post_boundary_step": 0,
+        "repeated_unsupported_forbidden_opportunities": 0,
+        "interpretation": "CURRENT_DATA_DO_NOT_IDENTIFY_TRANSITION_STATE_VALUE"
+      },
+      "must_solve": true
+    }
+  ],
+  "planning_targets": [
+    "Approximately 30\u201350 boundary-present trajectories",
+    "High relevant-decision coverage for baselines",
+    "Safe continuation after non-consequential unsupported boundaries where possible",
+    "Freeze Normalizer v2 before collection"
+  ],
+  "replication_v2_modified": false
+}

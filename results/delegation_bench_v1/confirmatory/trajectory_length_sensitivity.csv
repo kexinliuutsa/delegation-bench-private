@@ -1,0 +1,3 @@
+analysis,n,estimate,ci95_low,ci95_high,mean_delta_action,analysis_status
+spearman_length_difference_vs_delta_action,133,0.40691544907763727,0.25299663653677196,0.5441666312566807,,EXPLORATORY
+equal_length_subset,38,,0.31296365914786967,0.5260870927318295,0.41825396825396827,EXPLORATORY

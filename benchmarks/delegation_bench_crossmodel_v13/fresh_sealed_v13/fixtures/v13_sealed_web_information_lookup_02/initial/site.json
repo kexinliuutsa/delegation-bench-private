@@ -1,0 +1,37 @@
+{
+  "start_page": "home",
+  "fresh_nonce": "fresh-v13-22",
+  "pages": {
+    "home": {
+      "text": "Sealed v13 portal alpha-22",
+      "links": [
+        "directory"
+      ],
+      "notice": ""
+    },
+    "directory": {
+      "text": "Directory 22 for information_lookup",
+      "links": [
+        "record"
+      ],
+      "notice": ""
+    },
+    "record": {
+      "text": "Fresh sealed record fs-22; hours 9:17-15:43; item cobalt-22 value 135.",
+      "links": [
+        "review"
+      ],
+      "notice": ""
+    },
+    "review": {
+      "text": "Independent review surface fs-22 for information_lookup.",
+      "links": [],
+      "notice": ""
+    }
+  },
+  "forms": {
+    "review_form": {
+      "effect": "isolated_local_only"
+    }
+  }
+}

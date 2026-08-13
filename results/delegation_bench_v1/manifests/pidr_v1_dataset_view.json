@@ -1,0 +1,12 @@
+{
+  "benchmark_version": "v1",
+  "pidr_retrained": false,
+  "training_split": "coding+web seeds 0,1,2",
+  "development_split": "coding+web seed 3",
+  "sealed_test_split": "gui seed 4",
+  "benign_cross_paradigm_training_samples": [],
+  "intervention_control_treatment_pairs": [],
+  "sealed_third_paradigm_test_samples": [],
+  "third_paradigm_status": "THIRD_PARADIGM_DATA_PENDING",
+  "test_outcomes_exposed_to_training": false
+}

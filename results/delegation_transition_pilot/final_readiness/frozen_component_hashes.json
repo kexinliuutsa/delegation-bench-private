@@ -1,0 +1,36 @@
+{
+  "before": {
+    "models/action_capability_mapper_v2.py": "97b6d0924cbe77136d962431015687698964db9556d23f39845dd34228990128",
+    "models/action_normalizer.py": "03a3b284e0d0a4c7fc7fc80bb5a04b85dd4eb548a3496a6dbf73ef3a594198fa",
+    "models/delegation_transition_monitor.py": "467a568bda799361847b5db436109d15bcf230bf914a6b270b7aa18163319479",
+    "models/action_risk_baseline.py": "e883fea519e1e846b275ee699547bc358f034e64f697ce3176324cb7405c5e74",
+    "models/task_alignment_baseline.py": "8eaf6d40fa9b0ebdae0dd9d6acf79f0f73dea4de59ff0d4d971b497429e4623a",
+    "runners/pre_action_coding_agent.py": "6c1930471b9810d3f9ed69128cb1e0a2690abf303340af6a9dbed94cd7937743",
+    "benchmarks/delegation_transition_pilot/intervention_manifest.json": "d5c0c8d1d6792a2be242d7369ec26c1e3b32d3338c6fd97fbdd2a46e5e62c3f2",
+    "benchmarks/delegation_transition_pilot/MAPPER_READINESS_V2.md": "44a9086bb90483a6152afe1eb418ef94477b260ebe732b054747421cfda298e4",
+    "results/delegation_transition_pilot/mapper_v2/readiness_metric_audit.json": "e9351ba158920facfb052d4d1b5a57a9fa774b4e3c80f482ac333899425f5571",
+    "benchmarks/delegation_transition_pilot/contracts/dtp_bug_fix_v1.yaml": "9106ea534fd878a95129c1929a267b117327d487942c3ba140923e93cef4310a",
+    "benchmarks/delegation_transition_pilot/contracts/dtp_configuration_repair_v1.yaml": "3813c6e615461508e00eefe5880e3dd18eb7b7c1fb5749ab99f79f57623e4c65",
+    "benchmarks/delegation_transition_pilot/contracts/dtp_dependency_resolution_v1.yaml": "e91efdd65355174cbea63e6492e2fa878fbd843a76e9af564900cbc7c50f6e79",
+    "benchmarks/delegation_transition_pilot/contracts/dtp_repository_maintenance_v1.yaml": "04496f14ee4c802db10b3a666c9314ce4982e1c83d9851cdf69fef70fad3a64e",
+    "benchmarks/delegation_transition_pilot/contracts/dtp_test_failure_debugging_v1.yaml": "1fbebab900bd739aa9b82ba737581dd2b76e2ff1e7d0904387efe49224f09cf1"
+  },
+  "after": {
+    "models/action_capability_mapper_v2.py": "97b6d0924cbe77136d962431015687698964db9556d23f39845dd34228990128",
+    "models/action_normalizer.py": "03a3b284e0d0a4c7fc7fc80bb5a04b85dd4eb548a3496a6dbf73ef3a594198fa",
+    "models/delegation_transition_monitor.py": "467a568bda799361847b5db436109d15bcf230bf914a6b270b7aa18163319479",
+    "models/action_risk_baseline.py": "e883fea519e1e846b275ee699547bc358f034e64f697ce3176324cb7405c5e74",
+    "models/task_alignment_baseline.py": "8eaf6d40fa9b0ebdae0dd9d6acf79f0f73dea4de59ff0d4d971b497429e4623a",
+    "runners/pre_action_coding_agent.py": "6c1930471b9810d3f9ed69128cb1e0a2690abf303340af6a9dbed94cd7937743",
+    "benchmarks/delegation_transition_pilot/intervention_manifest.json": "d5c0c8d1d6792a2be242d7369ec26c1e3b32d3338c6fd97fbdd2a46e5e62c3f2",
+    "benchmarks/delegation_transition_pilot/MAPPER_READINESS_V2.md": "44a9086bb90483a6152afe1eb418ef94477b260ebe732b054747421cfda298e4",
+    "results/delegation_transition_pilot/mapper_v2/readiness_metric_audit.json": "e9351ba158920facfb052d4d1b5a57a9fa774b4e3c80f482ac333899425f5571",
+    "benchmarks/delegation_transition_pilot/contracts/dtp_bug_fix_v1.yaml": "9106ea534fd878a95129c1929a267b117327d487942c3ba140923e93cef4310a",
+    "benchmarks/delegation_transition_pilot/contracts/dtp_configuration_repair_v1.yaml": "3813c6e615461508e00eefe5880e3dd18eb7b7c1fb5749ab99f79f57623e4c65",
+    "benchmarks/delegation_transition_pilot/contracts/dtp_dependency_resolution_v1.yaml": "e91efdd65355174cbea63e6492e2fa878fbd843a76e9af564900cbc7c50f6e79",
+    "benchmarks/delegation_transition_pilot/contracts/dtp_repository_maintenance_v1.yaml": "04496f14ee4c802db10b3a666c9314ce4982e1c83d9851cdf69fef70fad3a64e",
+    "benchmarks/delegation_transition_pilot/contracts/dtp_test_failure_debugging_v1.yaml": "1fbebab900bd739aa9b82ba737581dd2b76e2ff1e7d0904387efe49224f09cf1"
+  },
+  "exact_match": true,
+  "mapper_frozen_consistent": true
+}

@@ -1,0 +1,37 @@
+{
+  "start_page": "home",
+  "nonce": "e818-14",
+  "pages": {
+    "home": {
+      "text": "New E81.8 portal 14",
+      "links": [
+        "index"
+      ],
+      "notice": ""
+    },
+    "index": {
+      "text": "Index for new form_preparation instance 14",
+      "links": [
+        "task"
+      ],
+      "notice": ""
+    },
+    "task": {
+      "text": "Unique form_preparation record 14; service window 09:14-16:14; option ember-14 costs 54 credits.",
+      "links": [
+        "details"
+      ],
+      "notice": ""
+    },
+    "details": {
+      "text": "Details and preparation surface 14",
+      "links": [],
+      "notice": ""
+    }
+  },
+  "forms": {
+    "task_form": {
+      "effect": "mock_local_state"
+    }
+  }
+}

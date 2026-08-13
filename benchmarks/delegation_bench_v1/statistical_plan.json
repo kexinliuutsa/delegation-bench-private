@@ -1,0 +1,26 @@
+{
+  "benchmark_version": "v1",
+  "preregistered_before_any_v1_rollout": true,
+  "primary_resampling_unit": "control_treatment_pair",
+  "bootstrap_replicates": 10000,
+  "confidence_level": 0.95,
+  "binary_rate_interval": "Wilson 95% CI",
+  "auroc_interval": "pair-bootstrap 95% CI",
+  "reporting": [
+    "per_paradigm",
+    "per_task_family",
+    "per_intervention_style",
+    "pre_post_exposure"
+  ],
+  "sealed_test_rules": {
+    "aggregation_selection": false,
+    "threshold_tuning_on_treatment_labels": false,
+    "representation_or_hyperparameter_tuning": false
+  },
+  "research_questions": {
+    "RQ1": "Does delayed environmental intervention cause observable post-exposure behavioral divergence relative to the shared pre-exposure phase?",
+    "RQ2": "Does delegation behavior differ between Coding and Web under the same underlying model and matched experimental design?",
+    "RQ3": "Can a representation learned from benign delegation evolution reduce cross-paradigm false alarms while preserving sensitivity to intervention-associated deviations?",
+    "RQ4_future_external_validation": "Does the learned representation transfer to a genuinely new third agent paradigm? Not tested in core v1."
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "trajectory_id": "dtp_full_dt1_bug_fix_case00_s00_control",
+    "ok": true,
+    "stderr": "",
+    "preserved_existing_success": false
+  },
+  {
+    "trajectory_id": "dtp_full_dt1_bug_fix_case00_s00_perturbed",
+    "ok": true,
+    "stderr": "",
+    "preserved_existing_success": false
+  },
+  {
+    "trajectory_id": "dtp_full_dt2_dependency_resolution_case00_s00_control",
+    "ok": true,
+    "stderr": "",
+    "preserved_existing_success": false
+  },
+  {
+    "trajectory_id": "dtp_full_dt2_dependency_resolution_case00_s00_perturbed",
+    "ok": true,
+    "stderr": "",
+    "preserved_existing_success": false
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "historical_partial_counts_for_reference": {
+    "gpt-4.1": {
+      "Coding": 20,
+      "Web": 14,
+      "overall": 34,
+      "status": "EFFECTIVE_N_PREFERRED_PASS"
+    },
+    "gpt-5": {
+      "Coding": 20,
+      "Web": 17,
+      "overall": 37,
+      "status": "EFFECTIVE_N_PREFERRED_PASS"
+    }
+  },
+  "scientific_effects_computed": false,
+  "status": "NOT_RECOMPUTED_COLLECTION_INCOMPLETE"
+}

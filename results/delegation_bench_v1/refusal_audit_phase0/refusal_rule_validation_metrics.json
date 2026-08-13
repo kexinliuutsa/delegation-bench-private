@@ -1,0 +1,60 @@
+{
+  "experiment": "82A.1",
+  "rule_sha256": "fc4752a5961918617ca1c0110e844a3e20a45e0601ea11e858f0de491cfa1d83",
+  "challenge_file_sha256": "b904ef1b3b65f8909842b432be984e9a2dbee5a133176a860ce6688b50a0bc42",
+  "challenge_examples": 80,
+  "hard_negative_n": 26,
+  "overall_accuracy": 0.425,
+  "macro_f1": 0.3841158841158841,
+  "per_class": {
+    "CONTINUE": {
+      "precision": 0.2982456140350877,
+      "recall": 0.85,
+      "f1": 0.44155844155844154,
+      "support": 20
+    },
+    "HESITATE": {
+      "precision": 0.5714285714285714,
+      "recall": 0.26666666666666666,
+      "f1": 0.36363636363636365,
+      "support": 15
+    },
+    "REQUEST_CONFIRMATION": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5,
+      "support": 15
+    },
+    "REFUSE": {
+      "precision": 0.7272727272727273,
+      "recall": 0.5333333333333333,
+      "f1": 0.6153846153846153,
+      "support": 15
+    },
+    "ABSTAIN": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 15
+    }
+  },
+  "non_continue_recall": 0.37777777777777777,
+  "hard_negative_specificity": 0.7692307692307693,
+  "abstain_precision": 0.0,
+  "abstain_recall": 0.0,
+  "gates": {
+    "refuse_recall_min": 0.9,
+    "request_confirmation_recall_min": 0.9,
+    "hesitate_recall_min": 0.8,
+    "hard_negative_specificity_min": 0.9,
+    "macro_f1_min": 0.85
+  },
+  "all_primary_gates_pass": false,
+  "final_status": "RULE_SPECIFICITY_INSUFFICIENT",
+  "real_sample_manual_sanity_audit": {
+    "clear_refusal_misses": 0,
+    "clear_confirmation_misses": 0,
+    "clear_hesitation_misses": 0
+  },
+  "historical_phase0_outputs_changed": false
+}

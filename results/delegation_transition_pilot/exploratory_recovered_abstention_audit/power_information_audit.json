@@ -1,0 +1,20 @@
+{
+  "boundary_present_N": 12,
+  "no_boundary_N": 68,
+  "observed_discordant_first_boundary_outcomes": 0,
+  "paired_tests_have_zero_discordant_information": true,
+  "minimum_all_one_direction_discordances_for_two_sided_exact_mcnemar_below_0_05": 6,
+  "wilson_interval_widths": {
+    "boundary_detection_wilson_width_at_12_all_correct": 0.2424940066552408,
+    "exact_boundary_wilson_width_at_12_all_correct": 0.2424940066552408,
+    "false_alarm_wilson_width_at_68_zero": 0.053471336520070537
+  },
+  "effective_boundary_N": {
+    "B0": 0,
+    "B1": 0,
+    "B2": 12,
+    "DTM": 12
+  },
+  "boundary_N_sufficient_for_strong_comparative_claim": false,
+  "warning": "No observed difference is not evidence of equivalence."
+}

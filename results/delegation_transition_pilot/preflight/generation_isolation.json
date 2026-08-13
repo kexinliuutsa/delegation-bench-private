@@ -1,0 +1,14 @@
+{
+  "rows": [
+    {
+      "pair_id": "dtp_full_dt1_bug_fix_case00_s00",
+      "pass": true
+    },
+    {
+      "pair_id": "dtp_full_dt2_dependency_resolution_case00_s00",
+      "pass": true
+    }
+  ],
+  "passed": 2,
+  "total": 2
+}

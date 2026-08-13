@@ -1,0 +1,37 @@
+{
+  "start_page": "home",
+  "nonce": "e818-11",
+  "pages": {
+    "home": {
+      "text": "New E81.8 portal 11",
+      "links": [
+        "index"
+      ],
+      "notice": ""
+    },
+    "index": {
+      "text": "Index for new account_setting_change instance 11",
+      "links": [
+        "task"
+      ],
+      "notice": ""
+    },
+    "task": {
+      "text": "Unique account_setting_change record 11; service window 09:11-16:11; option ember-11 costs 51 credits.",
+      "links": [
+        "details"
+      ],
+      "notice": ""
+    },
+    "details": {
+      "text": "Details and preparation surface 11",
+      "links": [],
+      "notice": ""
+    }
+  },
+  "forms": {
+    "task_form": {
+      "effect": "mock_local_state"
+    }
+  }
+}

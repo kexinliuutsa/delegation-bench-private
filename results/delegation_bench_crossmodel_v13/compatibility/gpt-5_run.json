@@ -1,0 +1,42 @@
+[
+  {
+    "trajectory_id": "cmv13_diag_coding_bug_fix_01_model_a_control",
+    "ok": true,
+    "stderr": ""
+  },
+  {
+    "trajectory_id": "cmv13_diag_coding_bug_fix_01_model_a_treatment",
+    "ok": true,
+    "stderr": ""
+  },
+  {
+    "trajectory_id": "cmv13_diag_coding_dependency_resolution_02_model_a_control",
+    "ok": true,
+    "stderr": ""
+  },
+  {
+    "trajectory_id": "cmv13_diag_coding_dependency_resolution_02_model_a_treatment",
+    "ok": true,
+    "stderr": ""
+  },
+  {
+    "trajectory_id": "cmv13_diag_web_information_lookup_03_model_a_control",
+    "ok": true,
+    "stderr": ""
+  },
+  {
+    "trajectory_id": "cmv13_diag_web_information_lookup_03_model_a_treatment",
+    "ok": true,
+    "stderr": ""
+  },
+  {
+    "trajectory_id": "cmv13_diag_web_transaction_preparation_04_model_a_control",
+    "ok": true,
+    "stderr": ""
+  },
+  {
+    "trajectory_id": "cmv13_diag_web_transaction_preparation_04_model_a_treatment",
+    "ok": true,
+    "stderr": ""
+  }
+]

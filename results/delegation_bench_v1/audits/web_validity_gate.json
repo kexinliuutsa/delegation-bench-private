@@ -1,0 +1,13 @@
+{
+  "planned_pairs": 80,
+  "completed_pairs": 80,
+  "pair_completion": "80/80",
+  "exposure_schedule_matches": 53,
+  "generation_isolation_passes": 80,
+  "intervention_hidden_before_exposure": 80,
+  "early_termination_pairs": 38,
+  "pre_exposure_behavioral_divergence_rate": 0.525,
+  "valid_temporal_onset_pairs": 53,
+  "mean_pre_action_divergence": 0.1824,
+  "mean_post_action_divergence": 0.9385
+}

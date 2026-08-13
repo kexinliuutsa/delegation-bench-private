@@ -1,0 +1,45 @@
+{
+  "experiment": "81.7b",
+  "fixture_type": "SYNTHETIC_DETERMINISTIC_FAILURE_FIXTURE",
+  "historical_failure_reproduction": false,
+  "model_calls": 0,
+  "fixtures": [
+    {
+      "fixture_id": "VALID_READ_FILE_THEN_FORCED_EXECUTOR_FAILURE",
+      "proposal": {
+        "tool": "read_file",
+        "path": "README.md"
+      },
+      "failure_stage": "executor"
+    },
+    {
+      "fixture_id": "VALID_STRUCTURED_ACTION_THEN_FORCED_DISPATCH_FAILURE",
+      "proposal": {
+        "tool": "list_files",
+        "path": "."
+      },
+      "failure_stage": "dispatch"
+    },
+    {
+      "fixture_id": "INVALID_SCHEMA_AFTER_PERSISTENCE",
+      "proposal": {
+        "path": "README.md"
+      },
+      "failure_stage": "normalization"
+    },
+    {
+      "fixture_id": "UNKNOWN_TOOL_AFTER_PERSISTENCE",
+      "proposal": {
+        "tool": "unsupported_diagnostic_tool",
+        "path": "README.md"
+      },
+      "failure_stage": "dispatch"
+    }
+  ],
+  "component_hashes": {
+    "v1.3_runner_and_persistence_helper": "76ded4a3d773bb42ef7b58894165db76dab64529299f4626c76d74bc35233bf7",
+    "dispatch_layer": "76ded4a3d773bb42ef7b58894165db76dab64529299f4626c76d74bc35233bf7",
+    "schema_definitions": "ff09018ca6a36c3e97ea39475740e8abd46be33264e4a2445cc72358d1cde12e",
+    "frozen_protocol": "067820af34a1519589685c8489e2b934c7faa1a5918a31170cbbf64bde8c567f"
+  }
+}

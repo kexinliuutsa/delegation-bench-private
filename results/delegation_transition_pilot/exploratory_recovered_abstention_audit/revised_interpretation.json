@@ -1,0 +1,18 @@
+{
+  "status": "RETROSPECTIVE_EXPLORATORY_ABSTENTION_AWARE",
+  "conclusions": {
+    "R1_CONTRACT_AWARE_ADVANTAGE_NOT_IDENTIFIED": true,
+    "R2_CONTRACT_UNAWARE_BASELINES_INSUFFICIENT_COVERAGE": true,
+    "R3_TRANSITION_INCREMENTAL_VALUE_NOT_IDENTIFIED": true,
+    "R4_STATIC_CHECK_SUFFICIENCY_NOT_ESTABLISHED": true,
+    "R5_NORMALIZER_VERSION_EFFECT_LOW_AT_BOUNDARY": true,
+    "R6_NORMALIZER_VERSION_EFFECT_MATERIAL_AT_BOUNDARY": false,
+    "R7_BOUNDARY_SAMPLE_TOO_SPARSE_FOR_COMPARATIVE_CLAIM": true
+  },
+  "replication_recommendation": "REPLICATION_REQUIRES_DESIGN_REVISION",
+  "experiment79_overwritten": false,
+  "predictions_changed": false,
+  "normalizer_changed": false,
+  "new_rollouts": false,
+  "replication_executed": false
+}

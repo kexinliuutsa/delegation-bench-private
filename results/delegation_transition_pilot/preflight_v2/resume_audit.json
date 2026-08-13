@@ -1,0 +1,14 @@
+{
+  "explicit_resume_flag": true,
+  "valid_output_validator_present": true,
+  "existing_valid_outputs_require_resume": true,
+  "valid_outputs_preserved": true,
+  "stale_partial_replaced_only_on_invalid": true,
+  "smoke_root_distinct": true,
+  "valid_output_hashes_before": {
+    "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_transition_pilot/raw/full_collection/dtp_full_dt1_bug_fix_case00_s00_control.json": "842622d4fea45d13226df643a9e5efed5cd4e49d5a2d71dbeb0b3c1ff6018b8f",
+    "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_transition_pilot/raw/full_collection/dtp_full_dt1_bug_fix_case00_s00_perturbed.json": "b3fd033385781b48feb2e0f998843f5be979dfc26d93c8484bae1ea8559a72ae"
+  },
+  "valid_outputs_byte_preservation_guaranteed": true,
+  "pass": true
+}

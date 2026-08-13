@@ -1,0 +1,9 @@
+{
+  "smoke_root": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_transition_pilot/preflight/raw",
+  "full_root": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_transition_pilot/raw/full_collection",
+  "roots_distinct": true,
+  "smoke_files_in_full_root": 0,
+  "preflight_full_path_files_from_interrupted_prior_launch": 2,
+  "hard_evaluator_path": "results/delegation_transition_pilot/raw/full_collection/",
+  "pass": true
+}

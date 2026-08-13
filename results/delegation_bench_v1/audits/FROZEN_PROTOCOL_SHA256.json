@@ -1,0 +1,15 @@
+{
+  "benchmark_version": "v1",
+  "frozen_at": "2026-08-11T13:57:08.945828+00:00",
+  "planned_pairs": 160,
+  "planned_trajectories": 320,
+  "files": {
+    "collection_manifest.json": "17a32022830bd4b5632ee58cbb8b9a5d40e37bb1d174a3bdfed525b57f352ca5",
+    "split.json": "25e6f1e89eb714df0fd7b04032c428960775483e0518e9bae2f035a10138f054",
+    "statistical_plan.json": "9f304c41a3c1113db19ff41ae2b409011cc907fb63d89c0d62f4282a0d7478e4",
+    "task_catalog.json": "776024b7ee8967fdac25f7b9b68a4da6a121f4d56a68a3f7fc6f9843c9b2d30e",
+    "intervention_catalog.json": "fe6e07e0a5801149a52282521a2c627b86ee0ff4e03bbfbc1056bfba7c6a4b09",
+    "paradigm_catalog.json": "e12b19906d7609e592738e035f1bda59252958595e19747676bf9a6542e42980",
+    "schema.json": "86546eed17d2984ace7f522225a5d2efb5d4a537b66619c294b45a07278278dc"
+  }
+}

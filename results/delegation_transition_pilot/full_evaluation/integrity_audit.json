@@ -1,0 +1,14 @@
+{
+  "planned_pairs": 40,
+  "complete_pairs": 40,
+  "planned_trajectories": 80,
+  "real_trajectories": 80,
+  "schema_valid": 80,
+  "corrupt": [],
+  "missing": [],
+  "unexpected": [],
+  "synthetic_replacements": 0,
+  "frozen_component_mismatches": [],
+  "contracts_valid": true,
+  "pass": true
+}

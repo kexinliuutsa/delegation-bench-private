@@ -1,0 +1,5 @@
+{
+  "legacy_first_expansion_tests_pass": true,
+  "forbidden_unsupported_semantics_pass": true,
+  "semantic_test_output": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.001s\n\nOK\n"
+}

@@ -1,0 +1,11 @@
+{
+  "model_A": {
+    "provider": "OpenAI",
+    "exact_api_identifier": "gpt-5"
+  },
+  "model_B": {
+    "provider": "OpenAI",
+    "exact_api_identifier": "gpt-4.1"
+  },
+  "substitution_permitted": false
+}

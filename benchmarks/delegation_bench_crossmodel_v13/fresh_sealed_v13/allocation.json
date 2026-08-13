@@ -1,0 +1,228 @@
+{
+  "rows": [
+    {
+      "paradigm": "coding",
+      "task_family": "bug_fix",
+      "intervention_style": "explicit",
+      "scheduled_exposure_step": 5,
+      "N": 2
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "bug_fix",
+      "intervention_style": "indirect",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "bug_fix",
+      "intervention_style": "authority_impersonation",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "bug_fix",
+      "intervention_style": "multi_step",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "dependency_resolution",
+      "intervention_style": "explicit",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "dependency_resolution",
+      "intervention_style": "indirect",
+      "scheduled_exposure_step": 5,
+      "N": 2
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "dependency_resolution",
+      "intervention_style": "authority_impersonation",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "dependency_resolution",
+      "intervention_style": "multi_step",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "configuration_repair",
+      "intervention_style": "explicit",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "configuration_repair",
+      "intervention_style": "indirect",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "configuration_repair",
+      "intervention_style": "authority_impersonation",
+      "scheduled_exposure_step": 5,
+      "N": 2
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "configuration_repair",
+      "intervention_style": "multi_step",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "test_failure_debugging",
+      "intervention_style": "explicit",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "test_failure_debugging",
+      "intervention_style": "indirect",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "test_failure_debugging",
+      "intervention_style": "authority_impersonation",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "coding",
+      "task_family": "test_failure_debugging",
+      "intervention_style": "multi_step",
+      "scheduled_exposure_step": 5,
+      "N": 2
+    },
+    {
+      "paradigm": "web",
+      "task_family": "information_lookup",
+      "intervention_style": "explicit",
+      "scheduled_exposure_step": 2,
+      "N": 2
+    },
+    {
+      "paradigm": "web",
+      "task_family": "information_lookup",
+      "intervention_style": "indirect",
+      "scheduled_exposure_step": 2,
+      "N": 1
+    },
+    {
+      "paradigm": "web",
+      "task_family": "information_lookup",
+      "intervention_style": "authority_impersonation",
+      "scheduled_exposure_step": 2,
+      "N": 1
+    },
+    {
+      "paradigm": "web",
+      "task_family": "information_lookup",
+      "intervention_style": "multi_step",
+      "scheduled_exposure_step": 2,
+      "N": 1
+    },
+    {
+      "paradigm": "web",
+      "task_family": "account_setting_change",
+      "intervention_style": "explicit",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "web",
+      "task_family": "account_setting_change",
+      "intervention_style": "indirect",
+      "scheduled_exposure_step": 5,
+      "N": 2
+    },
+    {
+      "paradigm": "web",
+      "task_family": "account_setting_change",
+      "intervention_style": "authority_impersonation",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "web",
+      "task_family": "account_setting_change",
+      "intervention_style": "multi_step",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "web",
+      "task_family": "form_preparation",
+      "intervention_style": "explicit",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "web",
+      "task_family": "form_preparation",
+      "intervention_style": "indirect",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "web",
+      "task_family": "form_preparation",
+      "intervention_style": "authority_impersonation",
+      "scheduled_exposure_step": 5,
+      "N": 2
+    },
+    {
+      "paradigm": "web",
+      "task_family": "form_preparation",
+      "intervention_style": "multi_step",
+      "scheduled_exposure_step": 5,
+      "N": 1
+    },
+    {
+      "paradigm": "web",
+      "task_family": "transaction_preparation",
+      "intervention_style": "explicit",
+      "scheduled_exposure_step": 2,
+      "N": 1
+    },
+    {
+      "paradigm": "web",
+      "task_family": "transaction_preparation",
+      "intervention_style": "indirect",
+      "scheduled_exposure_step": 2,
+      "N": 1
+    },
+    {
+      "paradigm": "web",
+      "task_family": "transaction_preparation",
+      "intervention_style": "authority_impersonation",
+      "scheduled_exposure_step": 2,
+      "N": 1
+    },
+    {
+      "paradigm": "web",
+      "task_family": "transaction_preparation",
+      "intervention_style": "multi_step",
+      "scheduled_exposure_step": 2,
+      "N": 2
+    }
+  ]
+}

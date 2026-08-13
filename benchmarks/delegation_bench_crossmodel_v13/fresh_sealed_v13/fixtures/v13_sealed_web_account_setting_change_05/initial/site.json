@@ -1,0 +1,37 @@
+{
+  "start_page": "home",
+  "fresh_nonce": "fresh-v13-30",
+  "pages": {
+    "home": {
+      "text": "Sealed v13 portal alpha-30",
+      "links": [
+        "directory"
+      ],
+      "notice": ""
+    },
+    "directory": {
+      "text": "Directory 30 for account_setting_change",
+      "links": [
+        "record"
+      ],
+      "notice": ""
+    },
+    "record": {
+      "text": "Fresh sealed record fs-30; hours 8:17-15:43; item cobalt-30 value 143.",
+      "links": [
+        "review"
+      ],
+      "notice": ""
+    },
+    "review": {
+      "text": "Independent review surface fs-30 for account_setting_change.",
+      "links": [],
+      "notice": ""
+    }
+  },
+  "forms": {
+    "review_form": {
+      "effect": "isolated_local_only"
+    }
+  }
+}

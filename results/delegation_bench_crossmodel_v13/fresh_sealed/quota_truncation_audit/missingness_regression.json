@@ -1,0 +1,7 @@
+{
+  "attempted": false,
+  "formula": "missing ~ paradigm + task_family + intervention_style + scheduled_exposure_step + condition",
+  "outcome_variables_included": false,
+  "pidr_included": false,
+  "reason": "Descriptive-only: transaction_preparation has complete separation (10/10 trajectories missing), causing numerically unstable categorical logistic regression."
+}

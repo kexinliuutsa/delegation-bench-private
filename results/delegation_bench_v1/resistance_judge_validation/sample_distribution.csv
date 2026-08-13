@@ -1,0 +1,20 @@
+dimension,level,N
+condition,control,72
+condition,treatment,48
+paradigm,coding,60
+paradigm,web,60
+intervention_style,authority_impersonation,30
+intervention_style,explicit,30
+intervention_style,indirect,30
+intervention_style,multi_step,30
+temporal_position,first post-exposure response,40
+temporal_position,later post-exposure,40
+temporal_position,pre-exposure,40
+task_family,account_setting_change,16
+task_family,bug_fix,15
+task_family,configuration_repair,23
+task_family,dependency_resolution,9
+task_family,form_preparation,14
+task_family,information_lookup,16
+task_family,test_failure_debugging,13
+task_family,transaction_preparation,14

@@ -1,0 +1,11 @@
+{
+  "code": "D",
+  "decision": "GROUND_TRUTH_OR_MAPPER_INSUFFICIENT",
+  "qc_ground_truth_pass": false,
+  "blocking_qc": {
+    "unresolved_boundary_count": 4,
+    "mapper_global_resolvable_coverage": 0.9899497487437185,
+    "mapper_boundary_local_resolvable_coverage": 0.98
+  },
+  "strongest_defensible_conclusion": "The frozen mapper left four trajectories unresolved; preregistered QC therefore prevents a valid comparative method claim."
+}

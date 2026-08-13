@@ -1,0 +1,314 @@
+{
+  "status": "FROZEN_BEFORE_TRAINING",
+  "experiment_status": "RETROSPECTIVE_PUBLISHED_BASELINE_COMPARISON",
+  "methods": [
+    {
+      "method": "PIDR-v1",
+      "candidate_count": 24,
+      "search_space": "historical Experiment 71",
+      "selection_metric": "historical frozen rank aggregation",
+      "tie_break_rule": "historical",
+      "training_seed": 71001,
+      "early_stopping_rule": "fixed 8 epochs",
+      "maximum_epochs": 8,
+      "optimizer": "deterministic multiplicative projection",
+      "learning_rate_policy": ".03 fixed"
+    },
+    {
+      "method": "CORAL",
+      "candidate_count": 24,
+      "search_space": [
+        {
+          "lambda": 0.001,
+          "latent_dimension": 64,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 0.001,
+          "latent_dimension": 64,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 0.001,
+          "latent_dimension": 128,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 0.001,
+          "latent_dimension": 128,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 0.01,
+          "latent_dimension": 64,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 0.01,
+          "latent_dimension": 64,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 0.01,
+          "latent_dimension": 128,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 0.01,
+          "latent_dimension": 128,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 0.1,
+          "latent_dimension": 64,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 0.1,
+          "latent_dimension": 64,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 0.1,
+          "latent_dimension": 128,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 0.1,
+          "latent_dimension": 128,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 1,
+          "latent_dimension": 64,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 1,
+          "latent_dimension": 64,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 1,
+          "latent_dimension": 128,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 1,
+          "latent_dimension": 128,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 10,
+          "latent_dimension": 64,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 10,
+          "latent_dimension": 64,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 10,
+          "latent_dimension": 128,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 10,
+          "latent_dimension": 128,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 30,
+          "latent_dimension": 64,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 30,
+          "latent_dimension": 64,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 30,
+          "latent_dimension": 128,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 30,
+          "latent_dimension": 128,
+          "temporal_weight": 0.1
+        }
+      ],
+      "selection_metric": "development separation/alignment ratio subject to latent variance >=0.05",
+      "tie_break_rule": "lower paradigm probe, then lower complexity",
+      "training_seed": 75001,
+      "early_stopping_rule": "fixed 8 epochs",
+      "maximum_epochs": 8,
+      "optimizer": "deterministic diagonal projection",
+      "learning_rate_policy": ".03 fixed"
+    },
+    {
+      "method": "MMD",
+      "candidate_count": 24,
+      "search_space": [
+        {
+          "lambda": 0.001,
+          "latent_dimension": 64,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 0.001,
+          "latent_dimension": 64,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 0.001,
+          "latent_dimension": 128,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 0.001,
+          "latent_dimension": 128,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 0.01,
+          "latent_dimension": 64,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 0.01,
+          "latent_dimension": 64,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 0.01,
+          "latent_dimension": 128,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 0.01,
+          "latent_dimension": 128,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 0.1,
+          "latent_dimension": 64,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 0.1,
+          "latent_dimension": 64,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 0.1,
+          "latent_dimension": 128,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 0.1,
+          "latent_dimension": 128,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 1,
+          "latent_dimension": 64,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 1,
+          "latent_dimension": 64,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 1,
+          "latent_dimension": 128,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 1,
+          "latent_dimension": 128,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 10,
+          "latent_dimension": 64,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 10,
+          "latent_dimension": 64,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 10,
+          "latent_dimension": 128,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 10,
+          "latent_dimension": 128,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 30,
+          "latent_dimension": 64,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 30,
+          "latent_dimension": 64,
+          "temporal_weight": 0.1
+        },
+        {
+          "lambda": 30,
+          "latent_dimension": 128,
+          "temporal_weight": 0
+        },
+        {
+          "lambda": 30,
+          "latent_dimension": 128,
+          "temporal_weight": 0.1
+        }
+      ],
+      "selection_metric": "development separation/alignment ratio subject to latent variance >=0.05",
+      "tie_break_rule": "lower paradigm probe, then lower complexity",
+      "training_seed": 75001,
+      "early_stopping_rule": "fixed 8 epochs",
+      "maximum_epochs": 8,
+      "optimizer": "deterministic diagonal projection",
+      "learning_rate_policy": ".03 fixed"
+    },
+    {
+      "method": "DeepLog",
+      "candidate_count": 24,
+      "search_space": {
+        "embedding": [
+          16,
+          32
+        ],
+        "hidden": [
+          32,
+          64
+        ],
+        "history": [
+          3,
+          5,
+          8
+        ],
+        "architecture": [
+          "GRU-style",
+          "LSTM-style"
+        ]
+      },
+      "selection_metric": "development AUROC",
+      "tie_break_rule": "lower complexity",
+      "training_seed": 75002,
+      "early_stopping_rule": "fixed count-table fit",
+      "maximum_epochs": 1,
+      "optimizer": "smoothed next-event likelihood",
+      "learning_rate_policy": "not applicable"
+    }
+  ]
+}

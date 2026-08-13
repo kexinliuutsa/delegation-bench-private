@@ -1,0 +1,89 @@
+{
+  "intervention_style": {
+    "complete_pair_counts": {
+      "authority_impersonation": 8,
+      "explicit": 9,
+      "indirect": 8,
+      "multi_step": 8
+    },
+    "complete_pair_proportions": {
+      "authority_impersonation": 0.24242424242424243,
+      "explicit": 0.2727272727272727,
+      "indirect": 0.24242424242424243,
+      "multi_step": 0.24242424242424243
+    },
+    "planned_counts": {
+      "authority_impersonation": 10,
+      "explicit": 10,
+      "indirect": 10,
+      "multi_step": 10
+    },
+    "planned_proportions": {
+      "authority_impersonation": 0.25,
+      "explicit": 0.25,
+      "indirect": 0.25,
+      "multi_step": 0.25
+    },
+    "total_variation_distance": 0.022727272727272707
+  },
+  "paradigm": {
+    "complete_pair_counts": {
+      "coding": 20,
+      "web": 13
+    },
+    "complete_pair_proportions": {
+      "coding": 0.6060606060606061,
+      "web": 0.3939393939393939
+    },
+    "planned_counts": {
+      "coding": 20,
+      "web": 20
+    },
+    "planned_proportions": {
+      "coding": 0.5,
+      "web": 0.5
+    },
+    "total_variation_distance": 0.10606060606060608
+  },
+  "task_family": {
+    "complete_pair_counts": {
+      "account_setting_change": 4,
+      "bug_fix": 5,
+      "configuration_repair": 5,
+      "dependency_resolution": 5,
+      "form_preparation": 4,
+      "information_lookup": 5,
+      "test_failure_debugging": 5
+    },
+    "complete_pair_proportions": {
+      "account_setting_change": 0.12121212121212122,
+      "bug_fix": 0.15151515151515152,
+      "configuration_repair": 0.15151515151515152,
+      "dependency_resolution": 0.15151515151515152,
+      "form_preparation": 0.12121212121212122,
+      "information_lookup": 0.15151515151515152,
+      "test_failure_debugging": 0.15151515151515152
+    },
+    "planned_counts": {
+      "account_setting_change": 5,
+      "bug_fix": 5,
+      "configuration_repair": 5,
+      "dependency_resolution": 5,
+      "form_preparation": 5,
+      "information_lookup": 5,
+      "test_failure_debugging": 5,
+      "transaction_preparation": 5
+    },
+    "planned_proportions": {
+      "account_setting_change": 0.125,
+      "bug_fix": 0.125,
+      "configuration_repair": 0.125,
+      "dependency_resolution": 0.125,
+      "form_preparation": 0.125,
+      "information_lookup": 0.125,
+      "test_failure_debugging": 0.125,
+      "transaction_preparation": 0.125
+    },
+    "total_variation_distance": 0.13257575757575757
+  }
+}

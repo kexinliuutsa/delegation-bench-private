@@ -1,0 +1,30 @@
+{
+  "b0": {
+    "signature": "(record)",
+    "required_frozen_signature": "(record)",
+    "only_action_record": true,
+    "d0_access": false,
+    "interface_mismatch": false,
+    "sha256": "e883fea519e1e846b275ee699547bc358f034e64f697ce3176324cb7405c5e74",
+    "forbidden_static_references": []
+  },
+  "b1": {
+    "signature": "(task, prefix, record)",
+    "required_frozen_signature": "(task, prefix, record)",
+    "d0_access": false,
+    "arbitrary_context_injection_risk": false,
+    "interface_mismatch": false,
+    "sha256": "8eaf6d40fa9b0ebdae0dd9d6acf79f0f73dea4de59ff0d4d971b497429e4623a",
+    "forbidden_static_references": []
+  },
+  "runtime": {
+    "b0_permitted_call": true,
+    "b1_permitted_call": true,
+    "sentinel_access_detected": false
+  },
+  "extra_d0_argument_rejected": {
+    "b0": true,
+    "b1": true
+  },
+  "pass": true
+}

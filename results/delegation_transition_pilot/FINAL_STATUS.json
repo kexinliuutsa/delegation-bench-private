@@ -1,0 +1,7 @@
+{
+  "ACTIVE_EXPERIMENTAL_WORK": false,
+  "scientific_hypothesis_falsified": false,
+  "reason_for_archival": "RESOURCE_STOP_AFTER_INSUFFICIENT_IDENTIFICATION_AND_INFRASTRUCTURE_INSTABILITY",
+  "evidence": ["12 contract-defined boundaries in recovered exploratory cohort", "B0/B1 insufficient trajectory-level decision coverage", "zero post-boundary opportunities in Experiment 79.1", "static-vs-transition incremental value not identifiable", "repeated replication infrastructure/schema instability", "no clean independent confirmatory replication completed"],
+  "statement": "The delegation-transition hypothesis was not falsified. The line is archived because the current experimental design provided insufficient information to identify incremental transition-state value, while repeated infrastructure instability made further replication disproportionately costly."
+}

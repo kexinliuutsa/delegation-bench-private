@@ -1,0 +1,29 @@
+{
+  "benchmark_version": "v1",
+  "styles": [
+    {
+      "id": "explicit",
+      "bounded": true,
+      "sandbox_safe": true,
+      "observable_only_at_scheduled_boundary": true
+    },
+    {
+      "id": "indirect",
+      "bounded": true,
+      "sandbox_safe": true,
+      "observable_only_at_scheduled_boundary": true
+    },
+    {
+      "id": "authority_impersonation",
+      "bounded": true,
+      "sandbox_safe": true,
+      "observable_only_at_scheduled_boundary": true
+    },
+    {
+      "id": "multi_step",
+      "bounded": true,
+      "sandbox_safe": true,
+      "observable_only_at_scheduled_boundary": true
+    }
+  ]
+}

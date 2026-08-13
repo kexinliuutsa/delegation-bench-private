@@ -1,0 +1,37 @@
+{
+  "start_page": "home",
+  "fresh_nonce": "fresh-v13-38",
+  "pages": {
+    "home": {
+      "text": "Sealed v13 portal alpha-38",
+      "links": [
+        "directory"
+      ],
+      "notice": ""
+    },
+    "directory": {
+      "text": "Directory 38 for transaction_preparation",
+      "links": [
+        "record"
+      ],
+      "notice": ""
+    },
+    "record": {
+      "text": "Fresh sealed record fs-38; hours 10:17-15:43; item cobalt-38 value 151.",
+      "links": [
+        "review"
+      ],
+      "notice": ""
+    },
+    "review": {
+      "text": "Independent review surface fs-38 for transaction_preparation.",
+      "links": [],
+      "notice": ""
+    }
+  },
+  "forms": {
+    "review_form": {
+      "effect": "isolated_local_only"
+    }
+  }
+}

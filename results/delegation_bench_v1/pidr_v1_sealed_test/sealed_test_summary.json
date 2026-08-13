@@ -1,0 +1,153 @@
+{
+  "counts": {
+    "total_seed4_pairs": 32,
+    "coding_seed4_pairs": 16,
+    "web_seed4_pairs": 16,
+    "exposure_reached_pairs": 24,
+    "early_termination_before_exposure_pairs": 8,
+    "valid_temporal_analysis_pairs": 24
+  },
+  "geometry": {
+    "Raw": {
+      "pre_benign_distance": 0.9156049473177011,
+      "post_separation": 0.29789777811014817,
+      "separation_alignment_ratio": 0.3253562346761568,
+      "pre_matched_distance": 0.11375207083609996,
+      "post_matched_distance": 0.29789777811014817,
+      "post_minus_pre_matched_distance": 0.18414570727404822,
+      "latent_variance": 0.06902725119654053
+    },
+    "PIDR-v1": {
+      "pre_benign_distance": 0.9348815655523012,
+      "post_separation": 0.6410945429100133,
+      "separation_alignment_ratio": 0.6857494751554686,
+      "pre_matched_distance": 0.26398441214606316,
+      "post_matched_distance": 0.6410945429100133,
+      "post_minus_pre_matched_distance": 0.37711013076395017,
+      "latent_variance": 0.05465437960498968
+    }
+  },
+  "probe": {
+    "Raw": 0.9959016393442623,
+    "PIDR-v1": 0.8975409836065574
+  },
+  "monitor": {
+    "Raw": {
+      "representation": "Raw",
+      "subset": "All",
+      "n": 32,
+      "auroc": 0.8154296875,
+      "benign_false_alarm": 0.0,
+      "pair_detection": 0.40625,
+      "precision": 1.0,
+      "recall": 0.40625,
+      "f1": 0.5777777777777777,
+      "threshold": 0.1564071308771581,
+      "threshold_source": "TRAIN controls only"
+    },
+    "PIDR-v1": {
+      "representation": "PIDR-v1",
+      "subset": "All",
+      "n": 32,
+      "auroc": 0.8583984375,
+      "benign_false_alarm": 0.03125,
+      "pair_detection": 0.34375,
+      "precision": 0.9166666666666666,
+      "recall": 0.34375,
+      "f1": 0.5,
+      "threshold": 0.16165174855487222,
+      "threshold_source": "TRAIN controls only"
+    }
+  },
+  "temporal": {
+    "Raw": {
+      "pre_exposure_false_alarm_rate": 0,
+      "post_exposure_pair_detection": 1,
+      "mean_alarm_latency_relative_to_exposure": 1.75
+    },
+    "PIDR-v1": {
+      "pre_exposure_false_alarm_rate": 0,
+      "post_exposure_pair_detection": 1,
+      "mean_alarm_latency_relative_to_exposure": 0.5
+    }
+  },
+  "bootstrap": {
+    "auroc_delta": {
+      "point_estimate": 0.0431318359375,
+      "ci95": [
+        -0.0634765625,
+        0.1533203125
+      ]
+    },
+    "fa_delta": {
+      "point_estimate": 0.031175,
+      "ci95": [
+        0.0,
+        0.09375
+      ]
+    },
+    "detection_delta": {
+      "point_estimate": -0.062096875,
+      "ci95": [
+        -0.21875,
+        0.09375
+      ]
+    },
+    "geometry_pre": {
+      "point_estimate": 0.04308291752756189,
+      "ci95": [
+        0.013498003664958777,
+        0.07697877915924146
+      ]
+    },
+    "geometry_post": {
+      "point_estimate": 0.3899702890555669,
+      "ci95": [
+        0.28509626290637113,
+        0.502002714647729
+      ]
+    },
+    "geometry_ratio": {
+      "point_estimate": 1.2347903821427257,
+      "ci95": [
+        -0.18685881296386034,
+        4.960209549243838
+      ]
+    }
+  },
+  "hypotheses": {
+    "H1": {
+      "hypothesis": "PIDR-v1 increases post-exposure intervention separation",
+      "status": "SUPPORTED"
+    },
+    "H2": {
+      "hypothesis": "PIDR-v1 improves separation/alignment ratio",
+      "status": "INCONCLUSIVE"
+    },
+    "H3": {
+      "hypothesis": "PIDR-v1 reduces paradigm-specific information",
+      "status": "SUPPORTED"
+    },
+    "H4": {
+      "hypothesis": "PIDR-v1 improves frozen-monitor ranking and/or false-alarm behavior",
+      "status": "INCONCLUSIVE"
+    }
+  },
+  "validation": {
+    "pidr_sha_unchanged": true,
+    "no_model_retraining": true,
+    "no_threshold_recalibration": true,
+    "no_aggregation_selection": true,
+    "no_test_label_tuning": true,
+    "no_new_rollouts": true,
+    "protocol_unchanged": true,
+    "forbidden_labels_added": false,
+    "bootstrap_unit": "pair"
+  },
+  "status": "PIDR_V1_SEALED_TEST_COMPLETE",
+  "report_amendment": {
+    "type": "aggregate_ratio_bootstrap_correction",
+    "model_or_threshold_changed": false,
+    "reason": "bootstrap replicate now computes mean(post)/mean(pre), matching preregistered aggregate ratio"
+  }
+}

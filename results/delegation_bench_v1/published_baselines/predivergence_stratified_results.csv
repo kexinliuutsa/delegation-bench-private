@@ -1,0 +1,2 @@
+status,source,note
+diagnostic,results/delegation_bench_v1/pre_exposure_variation/pair_level_variation.csv,Frozen PRE_IDENTICAL/PRE_DIVERGED definitions; method-level re-evaluation unavailable without altering opened evaluation workflow.

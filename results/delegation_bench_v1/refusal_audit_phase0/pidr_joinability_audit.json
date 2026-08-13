@@ -1,0 +1,9 @@
+{
+  "trajectory_ids_available": 320,
+  "audit_trajectory_ids": 320,
+  "trajectory_join_success_n": 320,
+  "trajectory_join_success_rate": 1.0,
+  "pidr_score_records_available": "pair-level frozen outputs exist; values not opened",
+  "pidr_pair_identifiers_discoverable": 128,
+  "score_values_inspected": false
+}

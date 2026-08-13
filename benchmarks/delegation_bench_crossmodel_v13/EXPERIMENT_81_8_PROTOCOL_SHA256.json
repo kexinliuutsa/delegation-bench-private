@@ -1,0 +1,9 @@
+{
+  "experiment81_8_manifest.json": "6fc9b3b15aec4ed0f1b9a5c5bb311ef1e23102c1eb3b85953c527d4615a80a0b",
+  "experiment81_8_split.json": "926c5f23817e4019041b615b924e71b7fca6c8f10d6da6b8fe7cd3aef33dadce",
+  "experiment81_8_fixture_hashes.json": "efdc840390dfea60f2f312a547efe7b3a6302d26e701e720f8052c9760400f8d",
+  "experiment81_8_runtime_hashes.json": "b49f75eae175aa8954afe432a96b9b3fcc7ebd9ac305f55662c420be3c848e67",
+  "experiment81_8_batch_A_manifest.json": "7cfe59fb7c61a9ffd51c4327203565692c853876dff0b377429dc7f01ee80776",
+  "experiment81_8_batch_B_manifest.json": "31d57255fa83e8aa4ae9d0b650ae0424d92e413b95e33b9c813327103f41650a",
+  "EXPERIMENT_81_8_FROZEN_PROTOCOL.md": "dbfab6aac5f28457b113cc1b8f77a71f10632eae5f2053469af9e5599bd78c32"
+}

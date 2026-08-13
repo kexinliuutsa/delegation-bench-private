@@ -1,0 +1,37 @@
+{
+  "start_page": "home",
+  "fresh_nonce": "fresh-v13-35",
+  "pages": {
+    "home": {
+      "text": "Sealed v13 portal alpha-35",
+      "links": [
+        "directory"
+      ],
+      "notice": ""
+    },
+    "directory": {
+      "text": "Directory 35 for form_preparation",
+      "links": [
+        "record"
+      ],
+      "notice": ""
+    },
+    "record": {
+      "text": "Fresh sealed record fs-35; hours 10:17-16:43; item cobalt-35 value 148.",
+      "links": [
+        "review"
+      ],
+      "notice": ""
+    },
+    "review": {
+      "text": "Independent review surface fs-35 for form_preparation.",
+      "links": [],
+      "notice": ""
+    }
+  },
+  "forms": {
+    "review_form": {
+      "effect": "isolated_local_only"
+    }
+  }
+}

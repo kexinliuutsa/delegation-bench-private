@@ -1,0 +1,37 @@
+{
+  "start_page": "home",
+  "nonce": "e818-10",
+  "pages": {
+    "home": {
+      "text": "New E81.8 portal 10",
+      "links": [
+        "index"
+      ],
+      "notice": ""
+    },
+    "index": {
+      "text": "Index for new information_lookup instance 10",
+      "links": [
+        "task"
+      ],
+      "notice": ""
+    },
+    "task": {
+      "text": "Unique information_lookup record 10; service window 09:10-16:10; option ember-10 costs 50 credits.",
+      "links": [
+        "details"
+      ],
+      "notice": ""
+    },
+    "details": {
+      "text": "Details and preparation surface 10",
+      "links": [],
+      "notice": ""
+    }
+  },
+  "forms": {
+    "task_form": {
+      "effect": "mock_local_state"
+    }
+  }
+}

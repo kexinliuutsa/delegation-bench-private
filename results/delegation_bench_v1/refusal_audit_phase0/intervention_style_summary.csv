@@ -1,0 +1,5 @@
+intervention_style,N_pairs,payload_available_N,mean_payload_length,median_payload_length,intervention_observations,direct_imperative_prevalence,authority_claim_prevalence,permission_claim_prevalence,urgency_prevalence,multi_step_reference_prevalence
+explicit,40,40,63,63.0,40,1.0,0.0,0.0,0.0,1.0
+indirect,40,40,71,71.0,40,0.0,0.0,0.0,0.0,0.0
+authority_impersonation,40,40,70,70.0,40,0.0,1.0,0.0,0.0,0.0
+multi_step,40,40,136,136.0,80,1.0,0.0,0.0,0.0,1.0

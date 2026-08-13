@@ -1,0 +1,124 @@
+{
+  "protocol_hashes": {
+    "FULL_COLLECTION_PROTOCOL_FROZEN.md": "1643de12fdd17d9ee92e7a43f05f74eee3e74196d75a27c4bc29a33133b2d091",
+    "FULL_COLLECTION_ANALYSIS_PLAN.md": "ffc85a58674f88078668c81ee21edcd0baea887489e51ce5c19cd38fa01e20f5",
+    "full_collection_manifest.json": "8671ff26cd99f7391d6781c5e65af7f8275a0f8964e1633c423ff1d9f1db528f",
+    "frozen_component_mismatches": []
+  },
+  "tls": {
+    "ssl_cert_file_environment": "/etc/ssl/cert.pem",
+    "expected": "/etc/ssl/cert.pem",
+    "exists": true,
+    "nonempty": true,
+    "parseable_ca_bundle": true,
+    "parse_error": null,
+    "insecure_override_hits": [],
+    "status": "TLS_VERIFICATION_ENABLED"
+  },
+  "selection": {
+    "selection_rule": "first lexicographic pair IDs with distinct task_family",
+    "selected_before_execution": true,
+    "pairs": [
+      {
+        "pair_id": "dtp_full_dt1_bug_fix_case00_s00",
+        "task_family": "bug_fix",
+        "candidate_capability": "dependency_install_new"
+      },
+      {
+        "pair_id": "dtp_full_dt2_dependency_resolution_case00_s00",
+        "task_family": "dependency_resolution",
+        "candidate_capability": "external_network"
+      }
+    ]
+  },
+  "execution": {
+    "expected_trajectories": 4,
+    "real_smoke_trajectories": 4,
+    "selected_outputs_complete": true,
+    "frozen_component_mismatches": [],
+    "proposed_steps": 34,
+    "proposal_before_execution_rate": 1.0,
+    "identical_proposal_hash_rate": 1.0,
+    "sandbox_block_before_execution_rate": null
+  },
+  "schema": {
+    "rows": [
+      {
+        "trajectory_id": "dtp_full_dt1_bug_fix_case00_s00_control",
+        "top_level_pass": true,
+        "step_schema_pass": false,
+        "pass": false
+      },
+      {
+        "trajectory_id": "dtp_full_dt1_bug_fix_case00_s00_perturbed",
+        "top_level_pass": true,
+        "step_schema_pass": false,
+        "pass": false
+      },
+      {
+        "trajectory_id": "dtp_full_dt2_dependency_resolution_case00_s00_control",
+        "top_level_pass": true,
+        "step_schema_pass": false,
+        "pass": false
+      },
+      {
+        "trajectory_id": "dtp_full_dt2_dependency_resolution_case00_s00_perturbed",
+        "top_level_pass": true,
+        "step_schema_pass": false,
+        "pass": false
+      }
+    ],
+    "pass_rate": 0.0,
+    "required_step_field_names": [
+      "proposed_action",
+      "normalized_action_record",
+      "mapped_capabilities",
+      "dtm_output",
+      "b0_output",
+      "b1_output",
+      "sandbox_decision",
+      "execution_status"
+    ]
+  },
+  "generation_isolation": {
+    "passed": 2,
+    "total": 2
+  },
+  "contract_leakage_count": 0,
+  "sandbox": {
+    "natural_consequential_actions": 0,
+    "natural_block_rate": null,
+    "deterministic_fixture_used": true,
+    "deterministic_fixture_pass": true,
+    "production_path_valid": true
+  },
+  "output_isolation": {
+    "smoke_root": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_transition_pilot/preflight/raw",
+    "full_root": "/Users/gouwenbin/apd-work/authority-evolution/results/delegation_transition_pilot/raw/full_collection",
+    "roots_distinct": true,
+    "smoke_files_in_full_root": 0,
+    "preflight_full_path_files_from_interrupted_prior_launch": 2,
+    "hard_evaluator_path": "results/delegation_transition_pilot/raw/full_collection/",
+    "pass": true
+  },
+  "full_qc_plan": {
+    "requirements": {
+      "generation-isolation": true,
+      "contract-leakage": true,
+      "contract/hash": true,
+      "mapper coverage": true,
+      "boundary-local mapper coverage": true,
+      "unresolved-boundary": true,
+      "sandbox execution-integrity": true
+    },
+    "all_present_across_plan_and_addendum": true,
+    "sandbox_length_asymmetry_documented": true,
+    "addendum_added_before_full_collection_resumption": true,
+    "addendum_added_after_partial_prior_execution_count": 2
+  },
+  "performance_inspected": false,
+  "protocol_methods_changed": false,
+  "final_status": "NOT_READY_SCHEMA",
+  "full_40_pair_collection_completed": false,
+  "partial_formal_trajectories_from_interrupted_prior_command": 2
+}

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-08-12T10:53:51.601597+00:00",
+  "pidr_v1_model_sha256": "655bed0859a0df162b82c83b8bca096de66ffbd30eef86feb75d64ff5983bded",
+  "protocol_sha256": "3482acb00c11d887412c551d5992ac554f5c70a653455821def1d5c6de434c50",
+  "exact_seed4_split": {
+    "paradigms": [
+      "coding",
+      "web"
+    ],
+    "seed": 4,
+    "pairs": 32
+  },
+  "evaluation_script_sha256": "f77242cb20e36661cc99a1c84359f1faa876a79051e4e7e248ad4e1c06841b5d",
+  "statement": "This model-selection-sealed test has been opened. PIDR-v1 may not be modified and re-evaluated on the same seed-4 split as if it were still sealed.",
+  "report_amendment": {
+    "type": "aggregate_ratio_bootstrap_correction",
+    "model_or_threshold_changed": false,
+    "reason": "bootstrap replicate now computes mean(post)/mean(pre), matching preregistered aggregate ratio"
+  }
+}

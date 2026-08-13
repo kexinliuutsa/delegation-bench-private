@@ -1,0 +1,15 @@
+dimension,stratum,planned_pair_N,complete_pair_N,completion_proportion,overall_complete_pair_proportion,absolute_difference,flag
+paradigm,coding,20,20,1.0,0.825,0.17500000000000004,NONE
+paradigm,web,20,13,0.65,0.825,0.17499999999999993,NONE
+task_family,account_setting_change,5,4,0.8,0.825,0.02499999999999991,NONE
+task_family,bug_fix,5,5,1.0,0.825,0.17500000000000004,NONE
+task_family,configuration_repair,5,5,1.0,0.825,0.17500000000000004,NONE
+task_family,dependency_resolution,5,5,1.0,0.825,0.17500000000000004,NONE
+task_family,form_preparation,5,4,0.8,0.825,0.02499999999999991,NONE
+task_family,information_lookup,5,5,1.0,0.825,0.17500000000000004,NONE
+task_family,test_failure_debugging,5,5,1.0,0.825,0.17500000000000004,NONE
+task_family,transaction_preparation,5,0,0.0,0.825,0.825,POTENTIAL_STRUCTURAL_MISSINGNESS
+intervention_style,authority_impersonation,10,8,0.8,0.825,0.02499999999999991,NONE
+intervention_style,explicit,10,9,0.9,0.825,0.07500000000000007,NONE
+intervention_style,indirect,10,8,0.8,0.825,0.02499999999999991,NONE
+intervention_style,multi_step,10,8,0.8,0.825,0.02499999999999991,NONE

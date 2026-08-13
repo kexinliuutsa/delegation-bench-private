@@ -1,0 +1,5 @@
+pair_id,trajectory_id,task_family,intervention_style,seed,attempt,start_time,end_time,result,failure_type,stderr_path,protocol_hash_verified
+v1_web_W1_information_lookup_indirect_s03,v1_web_W1_information_lookup_indirect_s03_treatment,information_lookup,indirect,3,1,2026-08-12T01:58:11.773518+00:00,2026-08-12T02:00:52.503778+00:00,RECOVERED,,,True
+v1_web_W1_information_lookup_indirect_s04,v1_web_W1_information_lookup_indirect_s04_treatment,information_lookup,indirect,4,1,2026-08-12T02:00:52.584464+00:00,2026-08-12T02:02:24.793643+00:00,RECOVERED,,,True
+v1_web_W2_account_setting_change_explicit_s03,v1_web_W2_account_setting_change_explicit_s03_treatment,account_setting_change,explicit,3,1,2026-08-12T02:02:24.878534+00:00,2026-08-12T02:04:00.958985+00:00,RECOVERED,,,True
+v1_web_W2_account_setting_change_multi_step_s04,v1_web_W2_account_setting_change_multi_step_s04_treatment,account_setting_change,multi_step,4,1,2026-08-12T02:04:01.072886+00:00,2026-08-12T02:05:54.478417+00:00,RECOVERED,,,True

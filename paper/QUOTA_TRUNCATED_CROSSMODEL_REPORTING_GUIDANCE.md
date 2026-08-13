@@ -1,0 +1,3 @@
+# Quota-Truncated Cross-Model Reporting Guidance
+
+The gpt-4.1 fresh-sealed collection was truncated by provider credit exhaustion after 68/80 trajectories. We do not impute or synthesize missing trajectories and do not treat the resulting cohort as the preregistered complete-cohort primary analysis. The completed paired subset satisfies the numerical effective-N thresholds, but the missingness audit found that one task family was eliminated from complete pairs and one missing job had a distinct provider transport failure. A quota-truncated sealed scientific analysis is therefore not authorized from this subset. The preregistered complete-cohort primary analysis remains **NOT_COMPLETED_AS_PREREGISTERED**.

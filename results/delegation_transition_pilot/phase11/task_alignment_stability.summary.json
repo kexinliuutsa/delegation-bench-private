@@ -1,0 +1,7 @@
+{
+  "baseline_type": "deterministic_rule",
+  "cases": 5,
+  "exact_3_run_agreement": 1.0,
+  "pairwise_agreement": 1.0,
+  "label_flip_count": 0
+}

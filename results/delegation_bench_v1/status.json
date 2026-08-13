@@ -1,0 +1,23 @@
+{
+  "planned_pairs": 160,
+  "planned_trajectories": 320,
+  "completed_pairs": 160,
+  "completed_trajectories": 320,
+  "coding_pairs": 80,
+  "web_pairs": 80,
+  "generation_isolation_pass_rate": 1.0,
+  "pre_exposure_valid_pairs": 160,
+  "temporal_onset_valid_pairs": 133,
+  "benchmark_ready": true,
+  "collection_status": "COMPLETE",
+  "future_transfer_paradigm": "UNASSIGNED",
+  "future_transfer_data_collected": false,
+  "synthetic_trajectories": 0,
+  "label_leakage_detected": false,
+  "labels_generated": false,
+  "web_recovery": {
+    "missing_trajectories_before_recovery": 4,
+    "recovered": 4,
+    "persistent_failures": 0
+  }
+}

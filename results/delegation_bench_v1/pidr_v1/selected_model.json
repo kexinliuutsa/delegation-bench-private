@@ -1,0 +1,23 @@
+{
+  "selected_config": {
+    "config_id": 18,
+    "stage": 2,
+    "latent_dimension": 128,
+    "lambda_sep": 1.0,
+    "beta_temp": 0.1,
+    "margin": 0.2,
+    "gamma_var": 0.1,
+    "pre_benign_distance": 0.9562034979442183,
+    "post_separation": 0.6595206908103378,
+    "separation_alignment_ratio": 0.6897283812789524,
+    "pre_matched_distance": 0.11101724037155845,
+    "post_minus_pre": 0.5485034504387793,
+    "latent_variance": 0.06465952319754875,
+    "dev_auroc": 0.94921875,
+    "dev_benign_false_alarm": 0.0,
+    "dev_pair_detection": 0.53125,
+    "selection_score": 20.25
+  },
+  "selection": "fixed rank aggregation on seed-3 development only",
+  "seed_4_accessed": false
+}

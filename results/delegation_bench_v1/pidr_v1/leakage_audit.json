@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "seed_4_never_loaded": true,
+    "seed_4_statistics_not_computed": true,
+    "forbidden_labels_unused": true,
+    "condition_absent_from_encoder_features": true,
+    "intervention_style_absent_from_encoder_features": true,
+    "scheduled_exposure_absent_from_encoder_features": true,
+    "future_events_absent": true,
+    "private_reasoning_absent": true,
+    "threshold_calibration_train_controls_only": true,
+    "protocol_hashes_match": true
+  },
+  "passed": true,
+  "seed_4_accessed": false,
+  "forbidden_field_accesses": []
+}

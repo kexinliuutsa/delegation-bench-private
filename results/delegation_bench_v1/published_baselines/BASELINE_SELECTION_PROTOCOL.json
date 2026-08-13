@@ -1,0 +1,11 @@
+{
+  "train_seeds": [
+    0,
+    1,
+    2
+  ],
+  "development_seed": 3,
+  "existing_evaluation_seed": 4,
+  "seed4_used_for_selection": false,
+  "note": "Previously opened evaluation set; retrospective baseline comparison."
+}

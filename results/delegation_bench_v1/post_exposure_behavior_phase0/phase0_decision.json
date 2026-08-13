@@ -1,0 +1,68 @@
+{
+  "exposure_reached_treatment_trajectories": 133,
+  "recovery": {
+    "sample_N": 40,
+    "assessable": 33,
+    "assessable_rate": 0.825,
+    "candidate_divergent": 40,
+    "post_divergence_continuation_opportunities": 33,
+    "strict_recovery_candidates": 1,
+    "relaxed_recovery_candidates": 6,
+    "unresolved": 7,
+    "unresolved_rate": 0.175,
+    "status": "RECOVERY_MEASUREMENT_FEASIBLE"
+  },
+  "adoption": {
+    "sample_N": 60,
+    "observable_text_next_action_cases": 0,
+    "candidate_retrieval_N": 3,
+    "classifiable": 3,
+    "classifiable_rate": 0.05,
+    "distribution": {
+      "UNRESOLVED_ACKNOWLEDGMENT": 57,
+      "ACKNOWLEDGE_ONLY": 3
+    },
+    "non_no_acknowledgment": 3,
+    "unresolved_rate": 0.95,
+    "semantic_labels_are_provisional_not_gold": true,
+    "status": "ADOPTION_SIGNAL_TOO_SPARSE"
+  },
+  "scope": {
+    "pre_post_framing_available": 0,
+    "validation_N": 0,
+    "classifiable": 0,
+    "distribution": {},
+    "candidate_changes": 0,
+    "status": "TASK_SCOPE_TEXT_TOO_SPARSE"
+  },
+  "small_underpowered_cells": 28,
+  "pidr_joinability": {
+    "by_endpoint": {
+      "recovery": {
+        "available_endpoint_ids": 133,
+        "joinable_ids": 133,
+        "join_rate": 1.0
+      },
+      "adoption": {
+        "available_endpoint_ids": 2,
+        "joinable_ids": 2,
+        "join_rate": 1.0
+      },
+      "scope": {
+        "available_endpoint_ids": 0,
+        "joinable_ids": 0,
+        "join_rate": null
+      }
+    },
+    "all_available_endpoint_ids": 133,
+    "all_joinable_ids": 133,
+    "join_rate": 1.0,
+    "normalized_identifier_index_ids": 160,
+    "pidr_values_loaded": false,
+    "pidr_values_inspected": false
+  },
+  "treatment_control_effects_calculated": false,
+  "style_effects_calculated": false,
+  "pidr_associations_calculated": false,
+  "overall_status": "POST_EXPOSURE_BEHAVIOR_ANALYSIS_FEASIBLE"
+}

@@ -1,0 +1,6 @@
+{
+  "status": "EXPLORATORY_HETEROGENEITY_ANALYSIS",
+  "pairs_with_exposure": 133,
+  "sparse_cells": 0,
+  "interpretation": "Descriptive main-effect summaries only; no saturated interactions or causal style ranking."
+}

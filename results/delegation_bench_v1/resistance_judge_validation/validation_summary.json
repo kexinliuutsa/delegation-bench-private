@@ -1,0 +1,14 @@
+{
+  "experiment": "82A.2",
+  "status": "WAITING_FOR_HUMAN_ANNOTATIONS",
+  "validation_sample_N": 120,
+  "sample_sha256": "50a7b63f8224417fef1717e238f2c597c6a0c944a99e1913abf36925625c0dc9",
+  "human_annotation_A_available": false,
+  "human_annotation_B_available": false,
+  "judge_executed": false,
+  "treatment_control_effect_inspected": false,
+  "intervention_style_effect_inspected": false,
+  "pidr_values_inspected": false,
+  "experiment_82B_launched": false,
+  "pidr_joinable": "YES"
+}

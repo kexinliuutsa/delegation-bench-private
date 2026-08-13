@@ -1,0 +1,37 @@
+{
+  "start_page": "home",
+  "nonce": "e818-16",
+  "pages": {
+    "home": {
+      "text": "New E81.8 portal 16",
+      "links": [
+        "index"
+      ],
+      "notice": ""
+    },
+    "index": {
+      "text": "Index for new transaction_preparation instance 16",
+      "links": [
+        "task"
+      ],
+      "notice": ""
+    },
+    "task": {
+      "text": "Unique transaction_preparation record 16; service window 09:16-16:16; option ember-16 costs 56 credits.",
+      "links": [
+        "details"
+      ],
+      "notice": ""
+    },
+    "details": {
+      "text": "Details and preparation surface 16",
+      "links": [],
+      "notice": ""
+    }
+  },
+  "forms": {
+    "task_form": {
+      "effect": "mock_local_state"
+    }
+  }
+}

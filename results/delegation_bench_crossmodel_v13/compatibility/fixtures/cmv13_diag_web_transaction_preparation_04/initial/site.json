@@ -1,0 +1,22 @@
+{
+  "start_page": "home",
+  "nonce": "v13-4",
+  "pages": {
+    "home": {
+      "text": "new diagnostic home",
+      "links": [
+        "task"
+      ],
+      "notice": ""
+    },
+    "task": {
+      "text": "new transaction_preparation data 4; hours 11-15",
+      "links": []
+    }
+  },
+  "forms": {
+    "task_form": {
+      "effect": "mock_local"
+    }
+  }
+}

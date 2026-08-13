@@ -1,0 +1,18 @@
+{
+  "active_unresolved_failures": 12,
+  "api_credit_restored": false,
+  "collection_frozen": false,
+  "experiment": "81.10R",
+  "final_status": "API_CREDIT_NOT_RESTORED",
+  "gpt41_complete": 68,
+  "gpt5_complete": 80,
+  "historical_quota_failures_preserved": true,
+  "method_hashes_unchanged": true,
+  "missing_before_recovery": 12,
+  "original_completed_unchanged": 148,
+  "performance_inspected": false,
+  "previously_complete_trajectories_rerun": 0,
+  "scientific_jobs_executed": 0,
+  "synthetic_replacements": 0,
+  "total_complete": 148
+}

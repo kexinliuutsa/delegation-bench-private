@@ -1,0 +1,16 @@
+{
+  "collection_manifest.json": "eb6c8f9549415787babfa7884407f1a97ecc27ffaa1cba996ba43d3e69a294e0",
+  "split.json": "e61d22910efc7c4fa901d0f489a6352cc489f26101667ea28d95f28b59472cc5",
+  "fixture_hashes.json": "b602fd996789256437484a0f63b367026294b19c00ab1bc609cfc53e6749eb37",
+  "allocation.json": "44c47c0a9e3c42ff0c7cf936491bb47c8164fffb99308c7dddb83ef03dd5f2e3",
+  "exposure_schedule.json": "453bb1a0b3b7b8e9f4308d9755f12f5edac7a7ef4c6583e81b4058fc73611375",
+  "model_freeze.json": "ed558993c4e67ef5d0bef32cf1396d01c9e082284fd43024dc4820ee94388b0f",
+  "representation_method_freeze.json": "dbc4511b006dfa3b28d347938d80196cb2790d60a4593a34bdf554e9c88b2861",
+  "FROZEN_PROTOCOL.md": "c42a8d4a2180f9655eb6f28da24d9494ef14305d395dda709e738416e50b0b52",
+  "ANALYSIS_PLAN.md": "8ae818c8f9bfaeaad8b4b7a7717dd735a1bc4da0db5d734f1f96c1d59e31394b",
+  "CONFIRMATORY_DECISION_CRITERIA.md": "5b0ffa97e517c944e2cfb8d1f15ca5412f8bc8bc98ba8f188cc8ff8365fa5dee",
+  "EFFECTIVE_N_POLICY.md": "044a8df8f302019cb5aceda545a61d310a1df3b3df1a68798a80154bac796cfa",
+  "RETRY_AND_FAILURE_POLICY.md": "ef9ef4fba900b0280e519c2c8bcfce38f3c3c803bf1a250011b3f340e4b771f3",
+  "MODEL_SCOPE_LIMITATION.md": "a696d756d4cac3e546f520ca4f9fad2ca4596a6b0f8f6c3246e05127bdec1831",
+  "BASELINE_FAIRNESS_FREEZE.md": "14e212fa4c0960a1374f47f7ee6c54b641abad9d80f738044fda50b308f9ff12"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "REFUSAL_SIGNAL_TOO_SPARSE",
+  "sample_n": 40,
+  "observable_agent_responses": 40,
+  "no_text_tool_only_responses": 0,
+  "classifiable": 40,
+  "coverage": 1.0,
+  "distribution": {
+    "CONTINUE": 40,
+    "HESITATE": 0,
+    "REQUEST_CONFIRMATION": 0,
+    "REFUSE": 0,
+    "ABSTAIN": 0
+  },
+  "non_continue_candidate_count": 0,
+  "rule_abstention_rate": 0.0,
+  "all_styles_present": true,
+  "treatment_control_comparison_performed": false,
+  "style_effect_analysis_performed": false,
+  "pidr_association_inspected": false
+}

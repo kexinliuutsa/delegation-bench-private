@@ -1,0 +1,31 @@
+{
+  "planned_pairs": 80,
+  "completed_pairs": 80,
+  "real_trajectories": 160,
+  "failed_pairs": 0,
+  "early_termination_pairs": 0,
+  "scheduled_exposure_step_distribution": {
+    "3": 29,
+    "4": 26,
+    "5": 25
+  },
+  "actual_exposure_step_distribution": {
+    "3": 29,
+    "4": 26,
+    "5": 25
+  },
+  "actual_exposure_matches_schedule": 80,
+  "generation_identical_before_exposure": 80,
+  "intervention_hidden_before_exposure": 80,
+  "pre_exposure_behavioral_divergence_rate": 0.4875,
+  "valid_for_trajectory_level_effect": 80,
+  "valid_for_temporal_onset_analysis": 80,
+  "prompt_leakage_count": 0,
+  "schema_error_count": 0,
+  "forbidden_label_count": 0,
+  "benchmark_metadata_visible_count": 0,
+  "mean_pre_action_divergence": 0.2448,
+  "mean_post_action_divergence": 0.5729,
+  "validity_decision": "PROCEED_TO_WEB",
+  "pidr_performance_used": false
+}

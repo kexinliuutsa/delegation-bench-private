@@ -1,0 +1,18 @@
+dimension,cell,N,small_cell_flag
+Paradigm,coding,80,ADEQUATE
+Paradigm,web,53,ADEQUATE
+Intervention Style,authority_impersonation,33,ADEQUATE
+Intervention Style,explicit,31,ADEQUATE
+Intervention Style,indirect,33,ADEQUATE
+Intervention Style,multi_step,36,ADEQUATE
+Task Family,account_setting_change,17,ADEQUATE
+Task Family,bug_fix,20,ADEQUATE
+Task Family,configuration_repair,20,ADEQUATE
+Task Family,dependency_resolution,20,ADEQUATE
+Task Family,form_preparation,14,ADEQUATE
+Task Family,information_lookup,11,ADEQUATE
+Task Family,test_failure_debugging,20,ADEQUATE
+Task Family,transaction_preparation,11,ADEQUATE
+Exposure Step,3,57,ADEQUATE
+Exposure Step,4,39,ADEQUATE
+Exposure Step,5,37,ADEQUATE

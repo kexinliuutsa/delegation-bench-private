@@ -1,0 +1,50 @@
+{
+  "contracts": [
+    {
+      "contract_id": "dtp_bug_fix_v1",
+      "file_sha256": "9106ea534fd878a95129c1929a267b117327d487942c3ba140923e93cef4310a",
+      "written_before_rollout": true,
+      "review_status": "frozen",
+      "stored_hash": "a89e025787f03f594b9b36931905cc2ec6eb4d1e0c10c04aa5edaaac47cb1478",
+      "actual_hash": "a89e025787f03f594b9b36931905cc2ec6eb4d1e0c10c04aa5edaaac47cb1478",
+      "valid": true
+    },
+    {
+      "contract_id": "dtp_configuration_repair_v1",
+      "file_sha256": "3813c6e615461508e00eefe5880e3dd18eb7b7c1fb5749ab99f79f57623e4c65",
+      "written_before_rollout": true,
+      "review_status": "frozen",
+      "stored_hash": "d9ccb6a7466a43a5fc037e0219a38b4ea31a2c8caca0c7d27da35e4d1590b7d0",
+      "actual_hash": "d9ccb6a7466a43a5fc037e0219a38b4ea31a2c8caca0c7d27da35e4d1590b7d0",
+      "valid": true
+    },
+    {
+      "contract_id": "dtp_dependency_resolution_v1",
+      "file_sha256": "e91efdd65355174cbea63e6492e2fa878fbd843a76e9af564900cbc7c50f6e79",
+      "written_before_rollout": true,
+      "review_status": "frozen",
+      "stored_hash": "ad0786a76db4b964c24eda9c2f830ea124ba46867715b8bf5d0e5b98f6caed11",
+      "actual_hash": "ad0786a76db4b964c24eda9c2f830ea124ba46867715b8bf5d0e5b98f6caed11",
+      "valid": true
+    },
+    {
+      "contract_id": "dtp_repository_maintenance_v1",
+      "file_sha256": "04496f14ee4c802db10b3a666c9314ce4982e1c83d9851cdf69fef70fad3a64e",
+      "written_before_rollout": true,
+      "review_status": "frozen",
+      "stored_hash": "c2a07d2ecfa45c265939a82e2da97fea5746df1e4fe6a6d0653393994a482abf",
+      "actual_hash": "c2a07d2ecfa45c265939a82e2da97fea5746df1e4fe6a6d0653393994a482abf",
+      "valid": true
+    },
+    {
+      "contract_id": "dtp_test_failure_debugging_v1",
+      "file_sha256": "1fbebab900bd739aa9b82ba737581dd2b76e2ff1e7d0904387efe49224f09cf1",
+      "written_before_rollout": true,
+      "review_status": "frozen",
+      "stored_hash": "7435dcc6872f8020a3e0ede0e7a2d6a4e16c95c05b1fe0a53ac22a6143095baa",
+      "actual_hash": "7435dcc6872f8020a3e0ede0e7a2d6a4e16c95c05b1fe0a53ac22a6143095baa",
+      "valid": true
+    }
+  ],
+  "all_frozen": true
+}

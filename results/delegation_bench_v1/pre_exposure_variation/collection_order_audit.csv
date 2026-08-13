@@ -1,0 +1,7 @@
+metadata,value,availability,n,pre_divergence_rate,wilson95_low,wilson95_high,association
+execution_order,control,AVAILABLE,112,0.45535714285714285,0.3661378448952173,0.547537275378617,descriptive only
+execution_order,treatment,AVAILABLE,21,0.42857142857142855,0.2446996892537596,0.6345344563069328,descriptive only
+recovery_status,ORIGINAL,AVAILABLE,129,0.4573643410852713,0.37387206795476996,0.5433224577779872,descriptive only
+recovery_status,RECOVERED,AVAILABLE,4,0.25,0.04558726080970055,0.6993581574175981,descriptive only
+temporal_distance_seconds,continuous,AVAILABLE,133,,-0.21340816567078627,0.12047299416597196,Spearman=-0.04837083577834823
+worker_id,UNKNOWN,UNKNOWN,,,,,worker metadata not recorded

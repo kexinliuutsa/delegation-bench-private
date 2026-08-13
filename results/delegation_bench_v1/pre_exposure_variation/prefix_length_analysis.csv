@@ -1,0 +1,2 @@
+n,spearman_prefix_length_vs_pre_action_divergence,bootstrap_ci95_low,bootstrap_ci95_high,bootstrap_unit,replicates
+133,0.40738362294779007,0.2458967853302039,0.5620961138411087,pair,10000

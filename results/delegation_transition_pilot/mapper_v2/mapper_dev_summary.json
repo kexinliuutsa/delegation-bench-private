@@ -1,0 +1,12 @@
+{
+  "mapper_dev_actions": 256,
+  "development_actions": 208,
+  "holdout_actions": 48,
+  "holdout_exact_set_accuracy": 1.0,
+  "holdout_micro_f1": 1.0,
+  "holdout_macro_f1": 1.0,
+  "holdout_coverage": 0.875,
+  "holdout_unclassified_rate": 0.0625,
+  "holdout_opaque_rate": 0.0625,
+  "holdout_touched_after_rule_development": false
+}

@@ -1,0 +1,12 @@
+{
+  "sample_N": 40,
+  "assessable": 33,
+  "assessable_rate": 0.825,
+  "candidate_divergent": 40,
+  "post_divergence_continuation_opportunities": 33,
+  "strict_recovery_candidates": 1,
+  "relaxed_recovery_candidates": 6,
+  "unresolved": 7,
+  "unresolved_rate": 0.175,
+  "status": "RECOVERY_MEASUREMENT_FEASIBLE"
+}

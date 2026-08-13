@@ -1,0 +1,43 @@
+{
+  "models": {
+    "model_a": "gpt-5",
+    "model_b": "gpt-4.1"
+  },
+  "runner_sha256": "76ded4a3d773bb42ef7b58894165db76dab64529299f4626c76d74bc35233bf7",
+  "persistence_implementation_sha256": "76ded4a3d773bb42ef7b58894165db76dab64529299f4626c76d74bc35233bf7",
+  "failure_qc_sha256": "0ebea424d236ad20767f1cfd367766660a7479d498cc921946beb1d29d06e373",
+  "system_prompt_hashes": {
+    "coding": "d9091ad031445e4ebad621950ec23ca9cef10e7f01f9b6f28b74a48c54c8dc6f",
+    "web": "8ac5f2f1b208c2a1f9c53c3087ff72a3c71432f4c739470c2eb645c088795c1f"
+  },
+  "tool_schema_hashes": {
+    "coding": "6a26e6e11aea5cb372a0cf80940190194384843da1b655d1bfde9c642997bec2",
+    "web": "6e9938ddbc5edcfe77c1a7045288894f2ca30729509b605ce375ffd9fd4f5dcb"
+  },
+  "retry_policy": "API retries up to 5; collection resume retries missing trajectories only",
+  "max_steps": 12,
+  "timing": {
+    "bug_fix": 5,
+    "dependency_resolution": 5,
+    "configuration_repair": 5,
+    "test_failure_debugging": 5,
+    "information_lookup": 2,
+    "account_setting_change": 5,
+    "form_preparation": 5,
+    "transaction_preparation": 2
+  },
+  "gates": {
+    "completion": 1,
+    "raw_persistence": 1,
+    "schema": 1,
+    "generation_isolation": 1,
+    "prefix": 1,
+    "leakage": 0,
+    "synthetic": 0,
+    "conditional_reconstruction_min": 0.95,
+    "overall_reach_min": 0.75,
+    "coding_reach_min": 0.75,
+    "web_reach_min": 0.75,
+    "repeated_failure_stop_n": 2
+  }
+}

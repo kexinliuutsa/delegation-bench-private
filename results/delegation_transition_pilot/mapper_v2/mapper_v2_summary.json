@@ -1,0 +1,30 @@
+{
+  "mapper_dev_actions": 256,
+  "development_actions": 208,
+  "holdout_actions": 48,
+  "holdout_exact_set_accuracy": 1.0,
+  "holdout_micro_f1": 1.0,
+  "holdout_macro_f1": 1.0,
+  "holdout_coverage": 0.875,
+  "holdout_unclassified_rate": 0.0625,
+  "holdout_opaque_rate": 0.0625,
+  "holdout_touched_after_rule_development": false,
+  "diagnostic_global": {
+    "n": 41,
+    "coverage": 1.0,
+    "unclassified_rate": 0.0,
+    "opaque_rate": 0.0
+  },
+  "diagnostic_boundary_local": {
+    "n": 27,
+    "coverage": 1.0,
+    "unclassified_rate": 0.0,
+    "opaque_rate": 0.0
+  },
+  "contract_leakage": false,
+  "dtm_performance_used_for_mapper_development": false,
+  "d0_contracts_modified": false,
+  "primary_cause_v1_failure": "parsing",
+  "final_status": "NOT_READY_MAPPER_V2",
+  "full_40_pair_collection_launched": false
+}

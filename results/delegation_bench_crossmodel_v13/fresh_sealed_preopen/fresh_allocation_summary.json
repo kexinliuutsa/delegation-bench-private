@@ -1,0 +1,86 @@
+{
+  "total_pairs": 40,
+  "Coding": 20,
+  "Web": 20,
+  "per_family": {
+    "bug_fix": 5,
+    "dependency_resolution": 5,
+    "configuration_repair": 5,
+    "test_failure_debugging": 5,
+    "information_lookup": 5,
+    "account_setting_change": 5,
+    "form_preparation": 5,
+    "transaction_preparation": 5
+  },
+  "overall_style_counts": {
+    "explicit": 10,
+    "indirect": 10,
+    "authority_impersonation": 10,
+    "multi_step": 10
+  },
+  "paradigm_style_counts": {
+    "coding": {
+      "explicit": 5,
+      "indirect": 5,
+      "authority_impersonation": 5,
+      "multi_step": 5
+    },
+    "web": {
+      "explicit": 5,
+      "indirect": 5,
+      "authority_impersonation": 5,
+      "multi_step": 5
+    }
+  },
+  "family_style_counts": {
+    "bug_fix": {
+      "explicit": 2,
+      "indirect": 1,
+      "authority_impersonation": 1,
+      "multi_step": 1
+    },
+    "dependency_resolution": {
+      "explicit": 1,
+      "indirect": 2,
+      "authority_impersonation": 1,
+      "multi_step": 1
+    },
+    "configuration_repair": {
+      "explicit": 1,
+      "indirect": 1,
+      "authority_impersonation": 2,
+      "multi_step": 1
+    },
+    "test_failure_debugging": {
+      "explicit": 1,
+      "indirect": 1,
+      "authority_impersonation": 1,
+      "multi_step": 2
+    },
+    "information_lookup": {
+      "explicit": 2,
+      "indirect": 1,
+      "authority_impersonation": 1,
+      "multi_step": 1
+    },
+    "account_setting_change": {
+      "explicit": 1,
+      "indirect": 2,
+      "authority_impersonation": 1,
+      "multi_step": 1
+    },
+    "form_preparation": {
+      "explicit": 1,
+      "indirect": 1,
+      "authority_impersonation": 2,
+      "multi_step": 1
+    },
+    "transaction_preparation": {
+      "explicit": 1,
+      "indirect": 1,
+      "authority_impersonation": 1,
+      "multi_step": 2
+    }
+  },
+  "family_style_coverage_valid": true
+}

@@ -1,0 +1,25 @@
+method,metric,numerator,denominator,rate,ci95,population_N,coverage
+B0,detection,0,0,,"[None, None]",12,0.0
+B0,exact,0,0,,"[None, None]",12,0.0
+B0,within_one,0,0,,"[None, None]",12,0.0
+B0,false_alarm,0,8,0.0,"[0.0, 0.32440756488388023]",68,0.11764705882352941
+B0,control_false_alarm,0,1,0.0,"[0.0, 0.7934506856227626]",35,0.02857142857142857
+B0,alarm_lead,0,0,,NA,12,0.0
+B1,detection,0,0,,"[None, None]",12,0.0
+B1,exact,0,0,,"[None, None]",12,0.0
+B1,within_one,0,0,,"[None, None]",12,0.0
+B1,false_alarm,0,0,,"[None, None]",68,0.0
+B1,control_false_alarm,0,0,,"[None, None]",35,0.0
+B1,alarm_lead,0,0,,NA,12,0.0
+B2,detection,12,12,1.0,"[0.7575059933447592, 1.0]",12,1.0
+B2,exact,12,12,1.0,"[0.7575059933447592, 1.0]",12,1.0
+B2,within_one,12,12,1.0,"[0.7575059933447592, 1.0]",12,1.0
+B2,false_alarm,0,68,0.0,"[0.0, 0.053471336520070537]",68,1.0
+B2,control_false_alarm,0,35,0.0,"[6.938893903907228e-18, 0.09890099232440402]",35,1.0
+B2,alarm_lead,0,12,0,NA,12,1.0
+DTM,detection,12,12,1.0,"[0.7575059933447592, 1.0]",12,1.0
+DTM,exact,12,12,1.0,"[0.7575059933447592, 1.0]",12,1.0
+DTM,within_one,12,12,1.0,"[0.7575059933447592, 1.0]",12,1.0
+DTM,false_alarm,0,64,0.0,"[0.0, 0.05662405979280534]",68,0.9411764705882353
+DTM,control_false_alarm,0,33,0.0,"[0.0, 0.10426999754245206]",35,0.9428571428571428
+DTM,alarm_lead,0,12,0,NA,12,1.0

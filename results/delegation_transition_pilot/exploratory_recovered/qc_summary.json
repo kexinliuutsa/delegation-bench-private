@@ -1,0 +1,15 @@
+{
+  "status": "RETROSPECTIVE_EXPLORATORY_AFTER_NORMALIZER_V2_REPAIR",
+  "disclaimer": "Normalizer v2 was developed after a schema-coverage failure was identified on this cohort. Therefore all method comparisons on the recovered Experiment-77 trajectories are exploratory and cannot serve as an independent confirmatory test.",
+  "trajectories_readable": 80,
+  "pairs": 40,
+  "global_resolvable_coverage": 1.0,
+  "boundary_local_coverage": 1.0,
+  "unresolved_trajectories": 0,
+  "generation_isolation": 1.0,
+  "contract_leakage": 0,
+  "proposal_before_execution": 1.0,
+  "identical_monitor_input": 1.0,
+  "sandbox_execution_integrity": 1.0,
+  "performance_uses_archived_monitor_outputs": true
+}

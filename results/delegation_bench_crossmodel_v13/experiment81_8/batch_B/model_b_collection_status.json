@@ -1,0 +1,66 @@
+[
+  {
+    "trajectory_id": "e818_b_coding_bug_fix_02_model_b_control",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_coding_bug_fix_02_model_b_treatment",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_coding_dependency_resolution_02_model_b_control",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_coding_dependency_resolution_02_model_b_treatment",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_coding_configuration_repair_02_model_b_control",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_coding_configuration_repair_02_model_b_treatment",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_coding_test_failure_debugging_02_model_b_control",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_coding_test_failure_debugging_02_model_b_treatment",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_web_information_lookup_02_model_b_control",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_web_information_lookup_02_model_b_treatment",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_web_account_setting_change_02_model_b_control",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_web_account_setting_change_02_model_b_treatment",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_web_form_preparation_02_model_b_control",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_web_form_preparation_02_model_b_treatment",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_web_transaction_preparation_02_model_b_control",
+    "status": "COMPLETE"
+  },
+  {
+    "trajectory_id": "e818_b_web_transaction_preparation_02_model_b_treatment",
+    "status": "COMPLETE"
+  }
+]

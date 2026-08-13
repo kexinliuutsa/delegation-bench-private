@@ -1,0 +1,1 @@
+trajectory_id,pair_id,model,step,raw_proposal_path,raw_structured_proposal,normalized_action,dispatch_status,exception_type,exception_message,failure_class,auditable

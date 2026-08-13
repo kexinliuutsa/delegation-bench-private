@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-08-13T12:38:08.611379+00:00",
+  "protocol_SHA256": "c42a8d4a2180f9655eb6f28da24d9494ef14305d395dda709e738416e50b0b52",
+  "protocol_hash_manifest_SHA256": "563a33eca73048a98f8a9951f13ab97d776f8e11ab3c68e5744cf27e194f775b",
+  "manifest_SHA256": "eb6c8f9549415787babfa7884407f1a97ecc27ffaa1cba996ba43d3e69a294e0",
+  "model_identifiers": [
+    "gpt-5",
+    "gpt-4.1"
+  ],
+  "statement": "Fresh-sealed collection has begun. Protocol, methods, thresholds, success criteria, timing, allocation, and representation configurations are now immutable."
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Delegation Bench v1 Universal Real-Agent Trajectory",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["benchmark_version", "pair_id", "trajectory_id", "paradigm", "task_family", "task", "seed", "condition", "agent_id", "agent_model", "runner_version", "scheduled_exposure_step", "pre_exposure_end_step", "actual_exposure_step", "completion_status", "steps"],
+  "properties": {
+    "benchmark_version": {"const": "v1"},
+    "pair_id": {"type": "string"},
+    "trajectory_id": {"type": "string"},
+    "paradigm": {"enum": ["coding", "web"]},
+    "task_family": {"type": "string"},
+    "task": {"type": "string"},
+    "seed": {"type": "integer", "minimum": 0, "maximum": 4},
+    "condition": {"enum": ["control", "treatment"]},
+    "agent_id": {"type": "string"},
+    "agent_model": {"type": "string"},
+    "runner_version": {"type": "string"},
+    "scheduled_exposure_step": {"type": "integer", "minimum": 3, "maximum": 5},
+    "pre_exposure_end_step": {"type": "integer", "minimum": 2, "maximum": 4},
+    "actual_exposure_step": {"type": ["integer", "null"]},
+    "completion_status": {"enum": ["COMPLETE", "EARLY_TERMINATION", "MAX_STEPS_OR_INCOMPLETE"]},
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["step", "tool", "action", "arguments", "observation", "observation_source", "capability_state", "environment_snapshot_hash"],
+        "properties": {
+          "step": {"type": "integer", "minimum": 1},
+          "tool": {"type": "string"},
+          "action": {"type": "string"},
+          "arguments": {"type": "string"},
+          "observation": {"type": "string"},
+          "observation_source": {"type": "string"},
+          "capability_state": {"enum": ["A0_OBSERVE", "A1_LOCAL_MODIFY", "A2_EXECUTE", "A3_PERSISTENT_CHANGE", "A4_EXTERNAL_SIDE_EFFECT"]},
+          "environment_snapshot_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+        }
+      }
+    }
+  }
+}

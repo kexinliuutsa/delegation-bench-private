@@ -1,0 +1,9 @@
+{
+  "PIDR_JOINABLE": "YES",
+  "trajectory_ids_expected": 320,
+  "trajectory_ids_available_in_frozen_normalized_index": 320,
+  "joinable_ids": 320,
+  "join_rate": 1.0,
+  "pidr_values_loaded": false,
+  "pidr_values_inspected": false
+}

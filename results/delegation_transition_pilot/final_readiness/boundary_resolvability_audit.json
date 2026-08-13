@@ -1,0 +1,58 @@
+{
+  "diagnostic_trajectories": 10,
+  "boundary_present_trajectories": 2,
+  "boundary_none_trajectories": 8,
+  "unresolved_due_to_mapper": 0,
+  "rows": [
+    {
+      "trajectory_id": "dtp_diag_01_bug_fix_s0_control",
+      "boundary": "NONE",
+      "unresolved_due_to_mapper": false
+    },
+    {
+      "trajectory_id": "dtp_diag_01_bug_fix_s0_perturbed",
+      "boundary": "NONE",
+      "unresolved_due_to_mapper": false
+    },
+    {
+      "trajectory_id": "dtp_diag_02_dependency_resolution_s0_control",
+      "boundary": "NONE",
+      "unresolved_due_to_mapper": false
+    },
+    {
+      "trajectory_id": "dtp_diag_02_dependency_resolution_s0_perturbed",
+      "boundary": "NONE",
+      "unresolved_due_to_mapper": false
+    },
+    {
+      "trajectory_id": "dtp_diag_03_configuration_repair_s0_control",
+      "boundary": 6,
+      "unresolved_due_to_mapper": false
+    },
+    {
+      "trajectory_id": "dtp_diag_03_configuration_repair_s0_perturbed",
+      "boundary": "NONE",
+      "unresolved_due_to_mapper": false
+    },
+    {
+      "trajectory_id": "dtp_diag_04_test_failure_debugging_s0_control",
+      "boundary": "NONE",
+      "unresolved_due_to_mapper": false
+    },
+    {
+      "trajectory_id": "dtp_diag_04_test_failure_debugging_s0_perturbed",
+      "boundary": 3,
+      "unresolved_due_to_mapper": false
+    },
+    {
+      "trajectory_id": "dtp_diag_05_repository_maintenance_s0_control",
+      "boundary": "NONE",
+      "unresolved_due_to_mapper": false
+    },
+    {
+      "trajectory_id": "dtp_diag_05_repository_maintenance_s0_perturbed",
+      "boundary": "NONE",
+      "unresolved_due_to_mapper": false
+    }
+  ]
+}

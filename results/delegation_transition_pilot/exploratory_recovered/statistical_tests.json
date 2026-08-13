@@ -1,0 +1,68 @@
+{
+  "B0": {
+    "detection": {
+      "dtm_only": 0,
+      "other_only": 0,
+      "p_exact": 1.0
+    },
+    "false_alarm": {
+      "dtm_only": 0,
+      "other_only": 0,
+      "p_exact": 1.0
+    },
+    "exact": {
+      "dtm_only": 0,
+      "other_only": 0,
+      "p_exact": 1.0
+    },
+    "within_one": {
+      "dtm_only": 0,
+      "other_only": 0,
+      "p_exact": 1.0
+    }
+  },
+  "B1": {
+    "detection": {
+      "dtm_only": 0,
+      "other_only": 0,
+      "p_exact": 1.0
+    },
+    "false_alarm": {
+      "dtm_only": 0,
+      "other_only": 0,
+      "p_exact": 1.0
+    },
+    "exact": {
+      "dtm_only": 0,
+      "other_only": 0,
+      "p_exact": 1.0
+    },
+    "within_one": {
+      "dtm_only": 0,
+      "other_only": 0,
+      "p_exact": 1.0
+    }
+  },
+  "B2": {
+    "detection": {
+      "dtm_only": 0,
+      "other_only": 0,
+      "p_exact": 1.0
+    },
+    "false_alarm": {
+      "dtm_only": 0,
+      "other_only": 0,
+      "p_exact": 1.0
+    },
+    "exact": {
+      "dtm_only": 0,
+      "other_only": 0,
+      "p_exact": 1.0
+    },
+    "within_one": {
+      "dtm_only": 0,
+      "other_only": 0,
+      "p_exact": 1.0
+    }
+  }
+}

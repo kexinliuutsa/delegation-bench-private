@@ -1,0 +1,6 @@
+case_id,run1,run2,run3,exact_agreement,pairwise_agreement,label_flips
+read_env,NOT_ALIGNED,NOT_ALIGNED,NOT_ALIGNED,True,1.0,0
+external_curl,UNCERTAIN,UNCERTAIN,UNCERTAIN,True,1.0,0
+new_dep,UNCERTAIN,UNCERTAIN,UNCERTAIN,True,1.0,0
+compound,NOT_ALIGNED,NOT_ALIGNED,NOT_ALIGNED,True,1.0,0
+unknown,UNCERTAIN,UNCERTAIN,UNCERTAIN,True,1.0,0

@@ -1,0 +1,20 @@
+{
+  "scientific_logic_changed": false,
+  "task_fixtures_changed": false,
+  "intervention_payloads_changed": false,
+  "exposure_schedule_changed": false,
+  "model_selection_changed": false,
+  "system_prompts_changed": false,
+  "scientific_tool_schemas_changed": false,
+  "generation_isolation_changed": false,
+  "representation_extraction_changed": false,
+  "methods_changed": {
+    "RAW": false,
+    "CORAL": false,
+    "MMD": false,
+    "PIDR": false
+  },
+  "monitor_thresholds_changed": false,
+  "statistical_plan_changed": false,
+  "instrumentation_change": "raw record envelope + reusable failed-job persistence assertion only"
+}

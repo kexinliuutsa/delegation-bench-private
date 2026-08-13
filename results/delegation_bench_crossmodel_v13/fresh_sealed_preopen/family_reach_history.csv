@@ -1,0 +1,9 @@
+experiment,model,task_family,scheduled_N,reached_N,early_termination_N,timing_used
+81.3,gpt-5,account_setting_change,1,1,0,diagnostic step 2; feasibility supported step 5
+81.3,gpt-4.1,account_setting_change,1,1,0,diagnostic step 2; feasibility supported step 5
+81.5,gpt-5,account_setting_change,2,2,0,step 5
+81.5,gpt-4.1,account_setting_change,2,2,0,step 5
+81.7,gpt-5,account_setting_change,0,0,0,not sampled
+81.7,gpt-4.1,account_setting_change,0,0,0,not sampled
+81.8,gpt-5,account_setting_change,2,1,1,step 5
+81.8,gpt-4.1,account_setting_change,2,2,0,step 5
