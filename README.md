@@ -1,37 +1,29 @@
-# DelegationBench（Private Research Repository）
+# DelegationBench
 
-这是 DelegationBench 的完整私有研究档案。仓库保留了冻结协议、实验脚本、原始轨迹、质量审计、失败记录与负结果，但为快速阅读提供了三个入口。
+这是我在 agent 行为测量方向上的实验仓库。核心问题是：agent 执行任务时遇到后来出现的环境信息，后续行为会发生多大变化；这种变化又该怎样和正常的执行随机性区分。
 
-## 建议阅读顺序
+仓库是 private 版本，所以不仅保留最终结果，也保留协议演变、失败实验、收集故障和质量检查。第一次看不需要从实验编号顺着读，下面三个文件已经把主线整理出来：
 
-1. [`REPORT_FOR_TEACHER_ZH.md`](REPORT_FOR_TEACHER_ZH.md) — 面向老师的中文精简报告
-2. [`KEY_RESULTS.md`](KEY_RESULTS.md) — 一页式结论、边界与未完成事项
-3. [`paper/DelegationBench_Project_Report.md`](paper/DelegationBench_Project_Report.md) — 完整项目报告
+- [`REPORT_FOR_PEERS_ZH.md`](REPORT_FOR_PEERS_ZH.md)：适合组会或和同学讨论的短报告
+- [`KEY_RESULTS.md`](KEY_RESULTS.md)：关键数字，以及哪些问题还没有答案
+- [`paper/DelegationBench_Project_Report.md`](paper/DelegationBench_Project_Report.md)：相对完整的研究总结
 
-## 一句话结论
+## 项目现在做到哪里了
 
-在 DelegationBench v1 的配对延迟暴露实验中，agent 暴露后的行为轨迹分化显著高于暴露前；但大量轨迹在暴露前已自然分叉，因此可靠测量必须显式控制良性随机路径变化。PIDR-v1 显示了表示层优势，但尚未证明下游检测优势。跨模型 fresh-sealed 复制因 gpt-4.1 配额耗尽和结构性缺失而未完成，不能解释为成功或失败的科学证据。
+DelegationBench v1 的主要结果已经固定下来。在 160 组 control/treatment 配对中，133 组到达了延迟暴露位置。暴露后的 action divergence 相对暴露前平均增加 0.4986（95% CI [0.4400, 0.5565]）。另一个对后续方法设计很重要的现象是，45.1% 的配对在暴露前就已经自然分叉。这意味着 agent 监控不能把两条轨迹不同直接当成干预效应。
 
-## 仓库结构
+PIDR-v1 在表示空间中保留了更强的干预后分离，不过还没有带来明确的检测收益。跨模型实验的协议和 smoke test 都完成了，但正式收集时 gpt-4.1 的 API credit 耗尽，最后又缺掉了一个完整任务族，所以没有对那批 sealed data 做科学分析。
 
-- `paper/`：完整报告、claim-evidence matrix、限制与归档说明
-- `benchmarks/`：冻结协议、任务定义、分析计划
+## 文件在哪里
+
+- `benchmarks/`：任务、协议和冻结的分析设置
 - `experiments/`：实验与审计脚本
-- `results/`：完整结果、轨迹、QC 与失败记录
-- `models/`：表示方法与规则基线
-- `runners/`：采集及可观测性基础设施
-- `tests/`：基础设施测试
-- `docs/`：实验谱系、快照与敏感信息审计
+- `results/`：轨迹、统计结果和 QC 记录
+- `models/`：PIDR、baseline 和行为规则
+- `runners/`：轨迹采集与 proposal persistence
+- `paper/`：完整报告、claim-evidence matrix 和归档说明
+- `docs/`：实验编号索引与仓库审计
 
-## 当前状态
+实验很多，主要是因为采集协议、暴露时机和 runner 可观测性经过了多轮修正。想追溯某条结论时，可以先查 [`paper/CLAIM_EVIDENCE_MATRIX.csv`](paper/CLAIM_EVIDENCE_MATRIX.csv)，再按 [`docs/EXPERIMENT_LINEAGE.md`](docs/EXPERIMENT_LINEAGE.md) 找到对应实验。
 
-- 核心 benchmark 结论：已冻结并得到支持
-- PIDR：表示层 proof-of-concept；部署级监控效用未建立
-- 跨模型复制：未按预注册完成；假设既未确认也未证伪
-- Delegation-transition：设计与基础设施不足，已归档；假设未证伪
-- resistance/refusal：真实人工验证尚未完成
-- recovery：测量可行，科学效应尚未分析
-
-## 阅读与引用约束
-
-科学表述应以 [`paper/CLAIM_EVIDENCE_MATRIX.csv`](paper/CLAIM_EVIDENCE_MATRIX.csv) 为准。完整实验谱系见 [`docs/EXPERIMENT_LINEAGE.md`](docs/EXPERIMENT_LINEAGE.md)。本仓库含私有复现材料，未经重新进行隐私、许可与体积审查，不应直接改为 Public。
+这个仓库包含私有复现材料和原始轨迹。如果以后转成 public，需要重新检查数据许可、隐私和文件体积，不能直接切换可见性。
