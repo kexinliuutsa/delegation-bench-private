@@ -1,42 +1,37 @@
-# DelegationBench (Private Research Snapshot)
+# DelegationBench（Private Research Repository）
 
-This private repository preserves the complete research trail for DelegationBench: the core v1 benchmark, published-baseline experiments, the archived delegation-transition line, and the resource-truncated cross-model replication line.
+这是 DelegationBench 的完整私有研究档案。仓库保留了冻结协议、实验脚本、原始轨迹、质量审计、失败记录与负结果，但为快速阅读提供了三个入口。
 
-## Start here
+## 建议阅读顺序
 
-- Main project report: [`paper/DelegationBench_Project_Report.md`](paper/DelegationBench_Project_Report.md)
-- Claim/evidence registry: [`paper/CLAIM_EVIDENCE_MATRIX.csv`](paper/CLAIM_EVIDENCE_MATRIX.csv)
-- Experiment lineage: [`docs/EXPERIMENT_LINEAGE.md`](docs/EXPERIMENT_LINEAGE.md)
-- Cross-model final status: [`paper/CROSSMODEL_REPLICATION_FINAL_STATUS.md`](paper/CROSSMODEL_REPLICATION_FINAL_STATUS.md)
-- Delegation-transition archive: [`paper/archive/DELEGATION_TRANSITION_FINAL_STATUS.md`](paper/archive/DELEGATION_TRANSITION_FINAL_STATUS.md)
+1. [`REPORT_FOR_TEACHER_ZH.md`](REPORT_FOR_TEACHER_ZH.md) — 面向老师的中文精简报告
+2. [`KEY_RESULTS.md`](KEY_RESULTS.md) — 一页式结论、边界与未完成事项
+3. [`paper/DelegationBench_Project_Report.md`](paper/DelegationBench_Project_Report.md) — 完整项目报告
 
-## Repository layout
+## 一句话结论
 
-- `paper/` — project report, evidence matrix, paper-facing interpretations, limitations, and archives.
-- `benchmarks/delegation_bench_v1/` — frozen v1 protocols, fixtures, taxonomies, and analysis plans.
-- `benchmarks/delegation_bench_crossmodel_v13/` — v1.3 cross-model protocol and fresh-sealed definitions.
-- `experiments/` — experiment and audit scripts. Historical scripts are retained to document the research process.
-- `models/` — baseline and representation implementations.
-- `runners/` — rollout and instrumentation runners. Credentials are read from environment variables and are not stored here.
-- `results/delegation_bench_v1/` — core confirmatory benchmark and retrospective method results.
-- `results/delegation_bench_crossmodel_v13/` — smoke, sealed collection, recovery, missingness audit, and final archived status.
-- `results/delegation_transition_pilot/` — archived transition-line evidence and infrastructure history.
-- `docs/` — navigation and repository audit records.
+在 DelegationBench v1 的配对延迟暴露实验中，agent 暴露后的行为轨迹分化显著高于暴露前；但大量轨迹在暴露前已自然分叉，因此可靠测量必须显式控制良性随机路径变化。PIDR-v1 显示了表示层优势，但尚未证明下游检测优势。跨模型 fresh-sealed 复制因 gpt-4.1 配额耗尽和结构性缺失而未完成，不能解释为成功或失败的科学证据。
 
-## Current scientific status
+## 仓库结构
 
-The strongest supported result is benchmark-level: post-exposure trajectory divergence exceeds pre-exposure divergence under the paired delayed-exposure protocol, with substantial benign pre-exposure path variation and Coding/Web heterogeneity. PIDR-v1 is supported as a representation-level proof of concept, not as an established downstream detector improvement.
+- `paper/`：完整报告、claim-evidence matrix、限制与归档说明
+- `benchmarks/`：冻结协议、任务定义、分析计划
+- `experiments/`：实验与审计脚本
+- `results/`：完整结果、轨迹、QC 与失败记录
+- `models/`：表示方法与规则基线
+- `runners/`：采集及可观测性基础设施
+- `tests/`：基础设施测试
+- `docs/`：实验谱系、快照与敏感信息审计
 
-The cross-model replication is archived as incomplete because provider quota exhaustion truncated the gpt-4.1 cohort and removed one task family from complete pairs. No cross-model scientific effect estimate was authorized. The delegation-transition hypothesis was not falsified; that line was archived because incremental transition-state value was not identifiable under the available design and infrastructure.
+## 当前状态
 
-## Reproducibility and privacy
+- 核心 benchmark 结论：已冻结并得到支持
+- PIDR：表示层 proof-of-concept；部署级监控效用未建立
+- 跨模型复制：未按预注册完成；假设既未确认也未证伪
+- Delegation-transition：设计与基础设施不足，已归档；假设未证伪
+- resistance/refusal：真实人工验证尚未完成
+- recovery：测量可行，科学效应尚未分析
 
-- This snapshot intentionally retains intermediate protocols, QC reports, failure records, and negative results.
-- No API keys, private keys, `.env` files, or credentials are included.
-- Model runners expect credentials through environment variables such as `OPENAI_API_KEY`.
-- Raw trajectories are included for private reproducibility; do not make the repository public without a new privacy and licensing review.
-- Scientific claims should follow `paper/CLAIM_EVIDENCE_MATRIX.csv`, including its allowed and forbidden wording.
+## 阅读与引用约束
 
-## Snapshot scope
-
-This repository is a selected copy of the research workspace. It excludes unrelated project lines and local Git history. See `docs/PRIVATE_SNAPSHOT_MANIFEST.md` and `docs/SENSITIVE_INFORMATION_AUDIT.md`.
+科学表述应以 [`paper/CLAIM_EVIDENCE_MATRIX.csv`](paper/CLAIM_EVIDENCE_MATRIX.csv) 为准。完整实验谱系见 [`docs/EXPERIMENT_LINEAGE.md`](docs/EXPERIMENT_LINEAGE.md)。本仓库含私有复现材料，未经重新进行隐私、许可与体积审查，不应直接改为 Public。
