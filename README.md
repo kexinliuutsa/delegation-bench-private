@@ -25,5 +25,3 @@ PIDR-v1 在表示空间中保留了更强的干预后分离，不过还没有带
 - `docs/`：实验编号索引与仓库审计
 
 实验很多，主要是因为采集协议、暴露时机和 runner 可观测性经过了多轮修正。想追溯某条结论时，可以先查 [`paper/CLAIM_EVIDENCE_MATRIX.csv`](paper/CLAIM_EVIDENCE_MATRIX.csv)，再按 [`docs/EXPERIMENT_LINEAGE.md`](docs/EXPERIMENT_LINEAGE.md) 找到对应实验。
-
-这个仓库包含私有复现材料和原始轨迹。如果以后转成 public，需要重新检查数据许可、隐私和文件体积，不能直接切换可见性。
